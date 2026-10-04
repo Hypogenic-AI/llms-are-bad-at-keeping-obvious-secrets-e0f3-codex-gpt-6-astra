@@ -1,0 +1,15 @@
+\begin{figure}[t]
+\centering
+\setlength{\fboxsep}{6pt}
+\fbox{\begin{minipage}{0.91\linewidth}
+\small
+\textbf{Inputs:} 90 word premises (15 secrets) + 60 plot cases (12 families).\\[3pt]
+\textbf{Planning:} Generate a concrete outline from the premise alone; withhold the secret and candidate twists from the outline generator.\\[3pt]
+\textbf{Conditions:} Baseline \quad Outline \quad Matched irrelevant context \quad Decoy (words).\\[3pt]
+\textbf{Paired writing:} For each condition, sample a secret-present story and a separate no-secret story with Gemma~3~12B.\\[3pt]
+\textbf{Behavior:} Qwen3~14B judges both orders; average within each pair. Also measure exact disclosure, plot forecasts, and coherence.\\[3pt]
+\textbf{Representation:} Hold continuation text fixed across 15 secrets; decode residuals on held-out contexts. Fixed gate fails $\Rightarrow$ no behavioral ablation. Post hoc centering is diagnostic only.
+\end{minipage}}
+\caption{Experimental design. All 300 outline/context comparisons match the entire actual input-token count, including the secret-present and no-secret versions. Outlines are computationally secret-blind; assignments already exist in the manifest. All Gemma inputs share the same duplicated beginning-of-sequence token. The representation branch does not supply a causal intervention result.}
+\label{fig:method}
+\end{figure}

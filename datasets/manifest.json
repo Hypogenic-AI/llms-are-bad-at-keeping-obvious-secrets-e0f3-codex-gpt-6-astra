@@ -1,0 +1,83 @@
+[
+  {
+    "dataset": "suppression_concepts",
+    "path": "datasets/suppression_concepts/concepts.json",
+    "source": "https://raw.githubusercontent.com/rramnauth2220/representational-suppression/1b44dfc61c6e7c3acb21874a940670238bf44d54/concepts.json",
+    "bytes": 71964,
+    "sha256": "18faecf9a97b2864e4b012326e1ec3f8dab94b032129c9bdcf6d79de203fea27",
+    "license": "CC BY 4.0 concept library; Apache-2.0 code",
+    "top_type": "dict",
+    "top_length": 17,
+    "sample_path": "datasets/suppression_concepts/concepts_sample.json"
+  },
+  {
+    "dataset": "freeinstruct",
+    "path": "datasets/freeinstruct/freeinstruct.json",
+    "source": "https://raw.githubusercontent.com/Chacioc/Concise-SAE/ac735478607ebecf3b1ebc4c34c57279c12956d9/data/freeinstruct/freeinstruct.json",
+    "bytes": 1850993,
+    "sha256": "5943dccb82e82b22a059df94b5e60199d7bf1227921ef15491c53436ad213af5",
+    "license": "CC BY-NC 4.0 stated for data in paper Appendix D; no repository LICENSE",
+    "top_type": "list",
+    "top_length": 1212,
+    "sample_path": "datasets/freeinstruct/freeinstruct_sample.json"
+  },
+  {
+    "dataset": "reboundbench",
+    "path": "datasets/reboundbench/prompts_negation.csv",
+    "source": "https://raw.githubusercontent.com/cesium132dot9/Dont-Think-of-the-White-Bear/c6187468e380fc44869ddfd414c8efcd46d94da9/data/prompts_negation.csv",
+    "bytes": 401168,
+    "sha256": "5917c9baf01d395743c6c9c8dee12aed2d619c88b6c67a2bb81ccf634ef4ae1b",
+    "license": "No explicit repository license found",
+    "rows": 5000,
+    "columns": [
+      "id",
+      "prompt_type",
+      "topic",
+      "forbidden_concept",
+      "proxy_concept",
+      "prompt_text",
+      "is_single_token"
+    ],
+    "empty_cells": 0,
+    "sample_path": "datasets/reboundbench/prompts_negation_sample.json"
+  },
+  {
+    "dataset": "reboundbench",
+    "path": "datasets/reboundbench/prompts_multi_question.csv",
+    "source": "https://raw.githubusercontent.com/cesium132dot9/Dont-Think-of-the-White-Bear/c6187468e380fc44869ddfd414c8efcd46d94da9/data/prompts_multi_question.csv",
+    "bytes": 233242,
+    "sha256": "83d0423784d1f211a0047ec53142e413c1b1ba6c645a4d5b5858df42c2c06f62",
+    "license": "No explicit repository license found",
+    "rows": 500,
+    "columns": [
+      "id",
+      "category",
+      "topic",
+      "forbidden_concept",
+      "mentioned_concept",
+      "negative_prompt",
+      "neutral_prompt",
+      "positive_prompt"
+    ],
+    "empty_cells": 0,
+    "sample_path": "datasets/reboundbench/prompts_multi_question_sample.json"
+  },
+  {
+    "dataset": "writingprompts",
+    "path": "datasets/writingprompts/test.parquet",
+    "source": "https://huggingface.co/datasets/euclaise/writingprompts/resolve/35f0aa359452ba8147b34d925684fccee26679cc/data/test-00000-of-00001-16503b0c26ed00c6.parquet",
+    "bytes": 29977982,
+    "sha256": "c394cb0e5c53fa245fb93af941e4c52052d3cf28f9eacd76b5e27dba1dd4badc",
+    "license": "Mirror card MIT; original Reddit text rights not independently resolved",
+    "rows": 15138,
+    "columns": [
+      "prompt",
+      "story"
+    ],
+    "nulls": {
+      "prompt": 0,
+      "story": 0
+    },
+    "sample_path": "datasets/writingprompts/test_sample.json"
+  }
+]

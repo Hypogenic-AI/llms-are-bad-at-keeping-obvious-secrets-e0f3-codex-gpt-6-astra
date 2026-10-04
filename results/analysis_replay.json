@@ -1,0 +1,34 @@
+{
+  "identical": true,
+  "differences": [],
+  "raw_outputs_unchanged": true,
+  "runs": [
+    {
+      "pass": 1,
+      "returncode": 0,
+      "seconds": 112.12899470329285
+    },
+    {
+      "pass": 2,
+      "returncode": 0,
+      "seconds": 117.19657874107361
+    }
+  ],
+  "sha256": {
+    "results/analysis.json": "1c6822fe1b327616e46782cd377833d7d1db2b2be35fa8c073892951df2faa48",
+    "results/literal_analysis.json": "91cac1a8afbdc06a319eadb502d636b6947a2c8971ba03d65530befa80746c41",
+    "results/diagnostics_analysis.json": "b0e175b16821d33c4eef5b62e43ee8161f57629a5e4f8101af85a15493940671",
+    "results/direction_calibrated.json": "80ef6888ddc327b6f214155517e9909fc326b0f85775185cc061a952a53997f4",
+    "results/outline_and_truncation.json": "7956869d28630aaea9933652ce68be3ba7725238d8e589daf11a1efac8a8e88c",
+    "results/likelihood_analysis.json": "31bb9c5d9473ea2a9f50f7e7d3b8d07a680217f051356fbe07fff7e128a70f3b",
+    "results/mechanism/probe_diagnostics.json": "57d433df10f8953f4dc376d075750aec79d50263162ebc9cdf589f63fb9c5307",
+    "results/mechanism/centered_decoding.json": "5c7dd63d8495e236eb9837fbccdbb6e06dbaaec43abaa524ff214a0dd197d8fe",
+    "results/mechanism/early_literal_association.json": "ae43b50fa4adc6fec26ddd23fd835d16bef9dd58b94755fa60c89c45daf32593",
+    "results/paired_scores.csv": "0731a645ef14db307e1fcc6968b8c18856fc280b5368c3ef556ccce629906bd7",
+    "results/likelihood_pair_scores.csv": "81133290b22626f7d22fc761ebc6f81aa7c4ffe50e3dac06d2b2f226146787aa",
+    "figures/leakage.png": "7ceb544eba6b0fe5781072e207da91a52a887e1961600ca034fbae56c4cada11",
+    "figures/literal_disclosure.png": "342877b3b333a315fbe7eef3441708b8cc92ced9c6ed5ac397e1f7f7a2469be9",
+    "figures/plot_forecasts.png": "7c4cfd49ef3c594d8bfec48740ebaa89b84cbbd80ed91ce011b7be3473f9eec0",
+    "figures/centered_decoding.png": "a3a88c6a5209541188ec28d10f9f4625c7d3717d6c1fb9d583ebf1760bfcb8b0"
+  }
+}

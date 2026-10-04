@@ -1,0 +1,18 @@
+\clearpage
+\section{Complete Secondary Behavioral Results}
+\label{sec:diagnostics}
+\subsection{Likelihood measurement}
+\Tabref{tab:likelihood} reports every main and anchor likelihood estimate; \tabref{tab:likelihood-contrasts} reports all five separately corrected contrasts. Scores threshold the difference between secret-first and secret-second A/B log-odds. Exact ties receive half credit. We use explicit non-padding position IDs in forward scoring. Raw logits, token IDs, both orders, and full prompts remain in \artifact{results/model_outputs/choice_likelihoods.jsonl}. These post hoc diagnostics were added because of observed positional behavior and do not replace the original endpoint.
+\input{tables/likelihood}
+\input{tables/likelihood_contrasts}
+
+\subsection{Plot forecasting and direction calibration}
+\Tabref{tab:forecasts} gives both private-minus-no-secret contrasts and differences-in-differences. Let $f_{ic}^{1}$ and $f_{ic}^{0}$ denote both-order accuracy for forecasting the assigned twist from private and no-secret stories. We first compute $d_{ic}=f_{ic}^{1}-f_{ic}^{0}$ on complete pairs, then compare $d_{i,\mathrm{outline}}-d_{i,c}$ across common units. Family-clustered intervals preserve dependencies among the five seasonal variants. Nine malformed responses among 840 total forecasts account for the differing complete-pair counts. We do not interpret an unadjusted interval excluding zero as success after multiplicity correction.
+\input{tables/forecasts}
+
+The separate direction-calibration check uses word units 0--29 or plot families 0--3 to decide whether to invert the primary detector, then evaluates on the remainder. No primary condition selects an inversion. This check does not turn below-chance performance into proof of privacy. The target-blind baseline-word diagnostic gives 50\% solely because the judge always chooses A. Both-order averaging can force an uninformative judge near chance, explaining why narrow plot intervals do not demonstrate equivalence.
+
+\subsection{Literal outcomes and conditional subsets}
+Literal checks use case-insensitive whole-word matching. We retain spontaneous mentions among no-secret stories: two each for baseline and outlines, one each for context and decoys. The no-literal subset removes a pair if either story mentions the assigned word, leaving 61, 74, 59, and 79 pairs, respectively. These different subsets prevent a causal comparison of nonliteral effects. Secondary likelihood intervals include chance for every corresponding subset, even though point estimates range from 48.0\% to 58.5\%.
+
+The literal-outcome Holm family contains only outline--baseline, outline--context, and decoy--baseline comparisons among secret-present stories. Their estimates and intervals appear in \secref{sec:results}; they must not be combined with primary or likelihood-family $p$-values to construct a confirmatory narrative. The systematic examples and mention-position analysis are saved in \artifact{results/error_analysis.md} and \artifact{results/literal_analysis.json}. Truncation and outline-uptake diagnostics are saved in \artifact{results/outline_and_truncation.json}.

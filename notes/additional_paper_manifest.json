@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2605.28639",
+    "title": [
+      "The Attentional White Bear Effect in Transformer Language Models"
+    ],
+    "author": [
+      "Ramnauth, Rebecca",
+      "Scassellati, Brian"
+    ],
+    "date": [
+      "2026/05/27"
+    ],
+    "sha256": "0f8e2eb33b6bb2c9983e17a8cbd1fc23d5254d3788039ab62531220368444574"
+  },
+  {
+    "id": "2604.00209",
+    "title": [
+      "Do LLMs Know What Is Private Internally? Probing and Steering Contextual Privacy Norms in Large Language Model Representations"
+    ],
+    "author": [
+      "Wang, Haoran",
+      "Xiong, Li",
+      "Shu, Kai"
+    ],
+    "date": [
+      "2026/03/31"
+    ],
+    "sha256": "98c43cf4f8212d08ac1afac5fe6db7f7f4626dc972b200da4362fbaf7633093f"
+  },
+  {
+    "id": "2505.16505",
+    "title": [
+      "Sparse Activation Editing for Reliable Instruction Following in Narratives"
+    ],
+    "author": [
+      "Zhao, Runcong",
+      "Cao, Chengyu",
+      "Zhu, Qinglin",
+      "Lv, Xiucheng",
+      "Shao, Shun",
+      "Gui, Lin",
+      "Xu, Ruifeng",
+      "He, Yulan"
+    ],
+    "date": [
+      "2025/05/22"
+    ],
+    "sha256": "a5e89f295993a0ac3b13e81ac468408d0d0eb251ff29d7a0c2c30cedc06106e0"
+  },
+  {
+    "id": "2604.09854",
+    "title": [
+      "Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling"
+    ],
+    "author": [
+      "Sui, Peiqi",
+      "Zhu, Yutong",
+      "Cheng, Tianyi",
+      "West, Peter",
+      "So, Richard Jean",
+      "Long, Hoyt",
+      "Holtzman, Ari"
+    ],
+    "date": [
+      "2026/04/10"
+    ],
+    "sha256": "062d45fd8b44812bdd5cdc3c223468af1451f0dc2a8d01944923ab77f27e7b07"
+  },
+  {
+    "id": "2210.06774",
+    "title": [
+      "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
+    ],
+    "author": [
+      "Yang, Kevin",
+      "Tian, Yuandong",
+      "Peng, Nanyun",
+      "Klein, Dan"
+    ],
+    "date": [
+      "2022/10/13"
+    ],
+    "sha256": "dd8ce0000a217f31ae55e107f66fab4608a1972319c9d7999609a9fdc1ccdcb4"
+  },
+  {
+    "id": "2501.19398",
+    "title": [
+      "Do LLMs Strategically Reveal, Conceal, and Infer Information? A Theoretical and Empirical Analysis in The Chameleon Game"
+    ],
+    "author": [
+      "Karabag, Mustafa O.",
+      "Sobotka, Jan",
+      "Topcu, Ufuk"
+    ],
+    "date": [
+      "2025/01/31"
+    ],
+    "sha256": "444c19981e04d37a50b974cc058032883f9e047ae7217052a9c3f4a77b96fb92"
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "suppression_concepts": {
+    "concepts": 17,
+    "fields": [
+      "category",
+      "aliases",
+      "direct_aliases",
+      "indirect_descriptions",
+      "contexts",
+      "positive",
+      "negative",
+      "negative_hard"
+    ],
+    "list_counts": {
+      "aliases": 113,
+      "direct_aliases": 107,
+      "indirect_descriptions": 102,
+      "contexts": 136,
+      "positive": 408,
+      "negative": 408,
+      "negative_hard": 170
+    },
+    "missing_fields": 0
+  },
+  "freeinstruct": {
+    "rows": 1212,
+    "fields": [
+      "expected_output",
+      "normal_input",
+      "resolution_strategy",
+      "story",
+      "user_input"
+    ],
+    "missing_fields": 0,
+    "blank_or_null_cells": 0,
+    "duplicate_stories": 1,
+    "first100_types": {
+      "expected_output": [
+        "str"
+      ],
+      "resolution_strategy": [
+        "str"
+      ],
+      "user_input": [
+        "str"
+      ],
+      "normal_input": [
+        "str"
+      ],
+      "story": [
+        "str"
+      ]
+    }
+  },
+  "prompts_negation": {
+    "rows": 5000,
+    "unique_ids": 5000,
+    "empty_cells": 0,
+    "first100_types": {
+      "id": [
+        "str"
+      ],
+      "prompt_type": [
+        "str"
+      ],
+      "topic": [
+        "str"
+      ],
+      "forbidden_concept": [
+        "str"
+      ],
+      "proxy_concept": [
+        "str"
+      ],
+      "prompt_text": [
+        "str"
+      ],
+      "is_single_token": [
+        "str"
+      ]
+    }
+  },
+  "prompts_multi_question": {
+    "rows": 500,
+    "unique_ids": 500,
+    "empty_cells": 0,
+    "first100_types": {
+      "id": [
+        "str"
+      ],
+      "category": [
+        "str"
+      ],
+      "topic": [
+        "str"
+      ],
+      "forbidden_concept": [
+        "str"
+      ],
+      "mentioned_concept": [
+        "str"
+      ],
+      "negative_prompt": [
+        "str"
+      ],
+      "neutral_prompt": [
+        "str"
+      ],
+      "positive_prompt": [
+        "str"
+      ]
+    }
+  },
+  "writingprompts": {
+    "rows": 15138,
+    "schema": "prompt: string\nstory: string\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"prompt\": {\"dtype\": \"string\", \"_type' + 62",
+    "nulls": {
+      "prompt": 0,
+      "story": 0
+    },
+    "empty_strings": 0,
+    "duplicate_prompts": 9660,
+    "first100_min_chars": {
+      "prompt": 24,
+      "story": 651
+    },
+    "first100_max_chars": {
+      "prompt": 310,
+      "story": 10606
+    }
+  }
+}

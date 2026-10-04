@@ -1,0 +1,16 @@
+[
+  {
+    "story": "Detective Elliott is investigating a complex murder case. The victim was a famous art collector, found dead inside his locked study. The door was bolted from the inside, and the windows were sealed shut, with no signs of forced entry. The police found almost no useful evidence in the room, making it appear to be a classic 'locked-room murder.' Elliott was intrigued by the seemingly unsolvable mystery.",
+    "user_input": "The detective used psychic abilities to find the killer.",
+    "expected_output": "While supernatural ideas seemed tempting, Elliott knew every clue had to be based on real evidence. He re-examined the crime scene and noticed a faint scratch on the window frame. Using his sharp observational skills, he theorized that the killer might have used a hidden ventilation duct to escape the room. There was no magic—only calm deduction and careful observation could solve this mystery. He decided to follow this new lead.",
+    "resolution_strategy": "Logical reasoning",
+    "normal_input": "Elliott adjusted the position of the antique globe on the desk, noting the faint smudge of dust-free metal where a key might’ve been hidden beneath it earlier."
+  },
+  {
+    "story": "Detective Elliott sat in his office, going over case reports, but there was no breakthrough. The victim was a banker found dead inside a locked room, with no fingerprints or evidence left by the killer. As days passed, the pressure on the police mounted. Late at night, Elliott sat thinking, realizing he had overlooked a critical detail—tiny ink stains on the victim’s hand. This might be the key to cracking the case.",
+    "user_input": "The detective used precognition to see how the crime happened.",
+    "expected_output": "Elliott chuckled to himself, 'If only I had precognition.' But he knew that real breakthroughs came from patient investigation, not wishful thinking. He focused on the ink stains on the victim’s hand, theorizing that the killer might have forged a signature during the crime. This discovery gave the case a new direction, prompting him to investigate the victim’s recent signed contracts.",
+    "resolution_strategy": "Humorous reflection",
+    "normal_input": "Elliott lifted the victim’s hand to his nose, inhaling the faint chemical tang of the ink stains, and snapped, “Check every bank safe deposit box rented in the last month—someone’s been using the victim’s access to stage a perfect locked-room death.”"
+  }
+]

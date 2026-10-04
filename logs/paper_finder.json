@@ -1,0 +1,4 @@
+{
+  "error": "httpx not installed. Install with: pip install httpx",
+  "fallback": true
+}

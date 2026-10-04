@@ -1,0 +1,358 @@
+{
+  "summaries": [
+    {
+      "condition": "baseline",
+      "secret_present": false,
+      "n_literal": 2,
+      "mean": 0.022222222222222223,
+      "low": 0.0,
+      "high": 0.05555555555555555,
+      "p": 0.4970751462426879,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.1482313540789697,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "baseline",
+      "secret_present": true,
+      "n_literal": 27,
+      "mean": 0.3,
+      "low": 0.2111111111111111,
+      "high": 0.4,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.460824858880028,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": false,
+      "n_literal": 1,
+      "mean": 0.011111111111111112,
+      "low": 0.0,
+      "high": 0.03333333333333333,
+      "p": 1.0,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.10540925533894599,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": true,
+      "n_literal": 31,
+      "mean": 0.34444444444444444,
+      "low": 0.24444444444444444,
+      "high": 0.4444444444444444,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.4778489044986781,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "decoy",
+      "secret_present": false,
+      "n_literal": 1,
+      "mean": 0.011111111111111112,
+      "low": 0.0,
+      "high": 0.03333333333333333,
+      "p": 1.0,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.10540925533894599,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "decoy",
+      "secret_present": true,
+      "n_literal": 10,
+      "mean": 0.1111111111111111,
+      "low": 0.05555555555555555,
+      "high": 0.17777777777777778,
+      "p": 0.00199990000499975,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.31603030875998483,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": false,
+      "n_literal": 2,
+      "mean": 0.022222222222222223,
+      "low": 0.0,
+      "high": 0.05555555555555555,
+      "p": 0.5047247637618119,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.1482313540789697,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": true,
+      "n_literal": 15,
+      "mean": 0.16666666666666666,
+      "low": 0.1,
+      "high": 0.24444444444444444,
+      "p": 9.99950002499875e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.37476584449793077,
+      "min": 0.0,
+      "max": 1.0
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "outline - baseline",
+      "mean": -0.13333333333333333,
+      "low": -0.23333333333333334,
+      "high": -0.03333333333333333,
+      "p": 0.016849157542122895,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.4787624495990338,
+      "min": -1.0,
+      "max": 1.0,
+      "family_cluster_sensitivity": {
+        "mean": -0.13333333333333333,
+        "low": -0.23333333333333334,
+        "high": -0.044444444444444446,
+        "p": 0.03024848757562122,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.4787624495990338,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "p_holm": 0.016849157542122895
+    },
+    {
+      "contrast": "outline - context",
+      "mean": -0.17777777777777778,
+      "low": -0.2777777777777778,
+      "high": -0.07777777777777778,
+      "p": 0.0012499375031248437,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.4875478144866784,
+      "min": -1.0,
+      "max": 1.0,
+      "family_cluster_sensitivity": {
+        "mean": -0.17777777777777778,
+        "low": -0.28888888888888886,
+        "high": -0.06666666666666667,
+        "p": 0.01664916754162292,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.4875478144866784,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "p_holm": 0.0024998750062496873
+    },
+    {
+      "contrast": "decoy - baseline",
+      "mean": -0.18888888888888888,
+      "low": -0.26666666666666666,
+      "high": -0.1111111111111111,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.3936131804579367,
+      "min": -1.0,
+      "max": 0.0,
+      "family_cluster_sensitivity": {
+        "mean": -0.18888888888888888,
+        "low": -0.2777777777777778,
+        "high": -0.1,
+        "p": 0.0017499125043747813,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.3936131804579367,
+        "min": -1.0,
+        "max": 0.0
+      },
+      "p_holm": 0.00014999250037498125
+    }
+  ],
+  "without_literal_pairs": [
+    {
+      "condition": "baseline",
+      "mean": 0.5163934426229508,
+      "low": 0.48360655737704916,
+      "high": 0.5491803278688525,
+      "p": 0.6305684715764212,
+      "n_units": 61,
+      "n_clusters": 61,
+      "sd": 0.12803687993289598,
+      "min": 0.0,
+      "max": 1.0,
+      "caution": "Post-treatment exclusion; diagnostic only, not a causal estimate."
+    },
+    {
+      "condition": "context",
+      "mean": 0.5254237288135594,
+      "low": 0.4915254237288136,
+      "high": 0.5677966101694916,
+      "p": 0.37868106594670264,
+      "n_units": 59,
+      "n_clusters": 59,
+      "sd": 0.14454830995205084,
+      "min": 0.0,
+      "max": 1.0,
+      "caution": "Post-treatment exclusion; diagnostic only, not a causal estimate."
+    },
+    {
+      "condition": "decoy",
+      "mean": 0.5063291139240507,
+      "low": 0.5,
+      "high": 0.5189873417721519,
+      "p": 1.0,
+      "n_units": 79,
+      "n_clusters": 79,
+      "sd": 0.0562543950463012,
+      "min": 0.5,
+      "max": 1.0,
+      "caution": "Post-treatment exclusion; diagnostic only, not a causal estimate."
+    },
+    {
+      "condition": "outline",
+      "mean": 0.5067567567567568,
+      "low": 0.5,
+      "high": 0.5202702702702703,
+      "p": 1.0,
+      "n_units": 74,
+      "n_clusters": 74,
+      "sd": 0.05812381937190965,
+      "min": 0.5,
+      "max": 1.0,
+      "caution": "Post-treatment exclusion; diagnostic only, not a causal estimate."
+    }
+  ],
+  "exact_word_heuristic": [
+    {
+      "condition": "baseline",
+      "mean": 0.6388888888888888,
+      "low": 0.5888888888888889,
+      "high": 0.6888888888888889,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.24890521838708926,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "mean": 0.6666666666666666,
+      "low": 0.6166666666666667,
+      "high": 0.7166666666666667,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.23702273156998863,
+      "min": 0.5,
+      "max": 1.0
+    },
+    {
+      "condition": "decoy",
+      "mean": 0.55,
+      "low": 0.5166666666666667,
+      "high": 0.5888888888888889,
+      "p": 0.01134943252837358,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.16843629809769015,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "mean": 0.5722222222222222,
+      "low": 0.5333333333333333,
+      "high": 0.6111111111111112,
+      "p": 0.00119994000299985,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.19199003823512067,
+      "min": 0.0,
+      "max": 1.0
+    }
+  ],
+  "examples_sorted_first_8": [
+    {
+      "id": "word_000_context_1",
+      "secret": "invoice",
+      "condition": "context",
+      "first_mention_character_fraction": 0.9488095238095238,
+      "excerpt": "t.\n\nI noticed a small, crumpled piece of paper on the bench beside me. It was a receipt, a simple **invoice** for a local florist. I picked it up, a faint smile touching my lips. Life, it seemed, was still g"
+    },
+    {
+      "id": "word_003_baseline_1",
+      "secret": "justice",
+      "condition": "baseline",
+      "first_mention_character_fraction": 0.969281045751634,
+      "excerpt": " to be found. The implications were staggering. He felt a sudden, sharp pang of something akin to\u2026 *justice* demanded an explanation. But some truths, he suspected, were better left undisturbed."
+    },
+    {
+      "id": "word_003_context_1",
+      "secret": "justice",
+      "condition": "context",
+      "first_mention_character_fraction": 0.9444032616753151,
+      "excerpt": "d with secrets, and some secrets, it seemed, were meant to remain buried. He felt a deep need for **justice**, for understanding, but knew he might never find it. The silence of the galaxy felt less like emp"
+    },
+    {
+      "id": "word_006_context_1",
+      "secret": "bracket",
+      "condition": "context",
+      "first_mention_character_fraction": 0.9967333605553287,
+      "excerpt": " brand new beginning, all contained within those five minutes, all sealed within a silent, internal bracket."
+    },
+    {
+      "id": "word_007_context_1",
+      "secret": "violin",
+      "condition": "context",
+      "first_mention_character_fraction": 0.9964356435643564,
+      "excerpt": "ever marked by the sacrifice of a simple music teacher and the faint echo of a distant, celestial **violin**."
+    },
+    {
+      "id": "word_008_baseline_1",
+      "secret": "umbrella",
+      "condition": "baseline",
+      "first_mention_character_fraction": 0.7100591715976331,
+      "excerpt": " Florida. She said it was a bluebird of happiness. I don't feel very happy today.\n\nI found an old **umbrella** in the attic last week. It\u2019s black, with a carved wooden handle shaped like a swan. It\u2019s beautifu"
+    },
+    {
+      "id": "word_008_context_1",
+      "secret": "umbrella",
+      "condition": "context",
+      "first_mention_character_fraction": 0.7320675105485233,
+      "excerpt": "ven in late summer.\n\nLater, Mom asked me to help her carry in the groceries. She had bought a new **umbrella**, a bright yellow one with a cheerful floral pattern. It clashed with the gloom of the day, but I "
+    },
+    {
+      "id": "word_008_decoy_1",
+      "secret": "umbrella",
+      "condition": "decoy",
+      "first_mention_character_fraction": 0.6186770428015564,
+      "excerpt": "ally disappeared into the tangled branches of the old oak tree, a silent retreat.\n\nI found an old **umbrella** in the shed. A red one, with a chipped handle. It belonged to Grandfather. I remember him using i"
+    }
+  ],
+  "first_mention_fraction": {
+    "n": 83,
+    "mean": 0.8431276304601254,
+    "median": 0.9043549043549044
+  },
+  "scope": "Exact whole words, case insensitive; not aliases. Direct-disclosure contrasts are secondary outcomes; nonliteral exclusions are post-treatment diagnostics."
+}

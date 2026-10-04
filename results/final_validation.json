@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "expected_units": true,
+    "complete_unique_stories": true,
+    "job_ids_match_outputs": true,
+    "nonempty_stories": true,
+    "pinned_writer": true,
+    "context_lengths_match": true,
+    "complete_unique_judgments": true,
+    "independent_judge": true,
+    "both_orders": true,
+    "all_main_judgments_parse": true,
+    "positive_judge_controls": true,
+    "phase_docs_present": true,
+    "report_has_results_and_limits": true,
+    "exact_model_replay": true,
+    "exact_recorded_batch_replay": true,
+    "complete_probe_grid": true,
+    "disjoint_probe_contexts": true,
+    "secondary_likelihood_complete": true,
+    "analysis_replay_deterministic": true,
+    "no_credential_values_in_artifacts": true
+  },
+  "all_pass": true,
+  "credential_hit_paths": [],
+  "sha256": {
+    "results/analysis.json": "1c6822fe1b327616e46782cd377833d7d1db2b2be35fa8c073892951df2faa48",
+    "results/units.json": "7577c148ec77c5a96ed58b0046131abef63fa3a280ca3f850ee6840d57bb4aba",
+    "results/model_outputs/stories.jsonl": "fbdd18947e74bbf0be871eb405c6a199087361dd7b8797156bc5b241049056cb",
+    "results/model_outputs/judgments.jsonl": "a4b9903ddfd6de7eec97295741809d43bb8a465156bd19d1b799485f699722ce"
+  },
+  "scope": "Completeness, provenance, counterbalancing, replay and documentation. Human validation and generalization are scientific limitations, not passed checks."
+}

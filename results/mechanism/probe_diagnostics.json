@@ -1,0 +1,137 @@
+{
+  "finite_features": true,
+  "shape": [
+    1080,
+    3,
+    3,
+    3840
+  ],
+  "residual_norm_min_mean_max": [
+    16239.4677734375,
+    74343.296875,
+    180359.296875
+  ],
+  "readouts": [
+    {
+      "condition": "baseline",
+      "method": "raw",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 0.9952380952380953,
+      "test_accuracy": 0.08888888888888889,
+      "test_context_ci": {
+        "mean": 0.08888888888888889,
+        "low": 0.06666666666666667,
+        "high": 0.13333333333333333,
+        "p": 1.0,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.28617761611461456,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 7
+    },
+    {
+      "condition": "baseline",
+      "method": "within_counterfactual_context_centered",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9111111111111111,
+      "test_context_ci": {
+        "mean": 0.9111111111111111,
+        "low": 0.8333333333333334,
+        "high": 0.9777777777777777,
+        "p": 0.03254837258137093,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.28617761611461456,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 15
+    },
+    {
+      "condition": "outline",
+      "method": "raw",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.06666666666666667,
+      "test_context_ci": {
+        "mean": 0.06666666666666667,
+        "low": 0.06666666666666667,
+        "high": 0.06666666666666667,
+        "p": 1.0,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.25084128112136317,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 3
+    },
+    {
+      "condition": "outline",
+      "method": "within_counterfactual_context_centered",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.6666666666666666,
+      "test_context_ci": {
+        "mean": 0.6666666666666666,
+        "low": 0.4888888888888889,
+        "high": 0.8333333333333334,
+        "p": 0.03254837258137093,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.4740454631399772,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 15
+    },
+    {
+      "condition": "context",
+      "method": "raw",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 0.9952380952380953,
+      "test_accuracy": 0.12222222222222222,
+      "test_context_ci": {
+        "mean": 0.12222222222222222,
+        "low": 0.06666666666666667,
+        "high": 0.2111111111111111,
+        "p": 0.5019249037548122,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.3293772734489573,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 8
+    },
+    {
+      "condition": "context",
+      "method": "within_counterfactual_context_centered",
+      "layer": 32,
+      "position": 256,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9333333333333333,
+      "test_context_ci": {
+        "mean": 0.9333333333333333,
+        "low": 0.8666666666666667,
+        "high": 0.9888888888888889,
+        "p": 0.03254837258137093,
+        "n_units": 90,
+        "n_clusters": 6,
+        "sd": 0.25084128112136317,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "n_unique_test_predictions": 15
+    }
+  ],
+  "status": "Post hoc diagnosis only; original gate and primary probe grid unchanged."
+}

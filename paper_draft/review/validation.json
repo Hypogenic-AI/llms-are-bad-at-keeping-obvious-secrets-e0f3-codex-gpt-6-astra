@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "exact_author": true,
+    "requested_style": true,
+    "clickable_references_package": true,
+    "command_imports": true,
+    "all_section_files": true,
+    "section_headings": true,
+    "standard_neurips_abstract": true,
+    "abstract_150_250_words": true,
+    "all_citations_resolved": true,
+    "no_latex_errors": true,
+    "no_undefined_references": true,
+    "no_rerun_required": true,
+    "no_overfull_boxes": true,
+    "no_bibtex_warnings": true,
+    "tables_booktabs": true,
+    "pdf_has_clickable_links": true,
+    "figures_unchanged": true,
+    "no_placeholders": true,
+    "inventory_matches_manifest": true,
+    "saved_values_likelihood": true,
+    "saved_values_likelihood_contrasts": true,
+    "saved_values_plot": true,
+    "saved_values_probe": true
+  },
+  "all_pass": true,
+  "abstract_whitespace_words": 193,
+  "bibliography_entries": 17,
+  "pdf_pages": 15,
+  "pdf_link_annotations": 80,
+  "pdf_sha256": "7a49042460308404b6bb09a672b447c32f5ce27b4280427ccdc93e646cf090d0"
+}

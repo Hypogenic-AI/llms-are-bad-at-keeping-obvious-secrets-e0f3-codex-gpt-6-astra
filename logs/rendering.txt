@@ -1,0 +1,24 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+1805.04833.pdf 11 pages
+1811.05701.pdf 11 pages
+2210.06774.pdf 86 pages
+2212.10077.pdf 86 pages
+2310.17884.pdf 24 pages
+2402.17119.pdf 17 pages
+2404.00859.pdf 24 pages
+2408.06518.pdf 14 pages
+2501.19398.pdf 20 pages
+2502.06258.pdf 20 pages
+2505.14352.pdf 19 pages
+2505.16505.pdf 15 pages
+2510.01070.pdf 55 pages
+2511.00180.pdf 24 pages
+2511.12381.pdf 12 pages
+2601.06973.pdf 36 pages
+2603.25187.pdf 17 pages
+2604.00209.pdf 18 pages
+2604.09854.pdf 29 pages
+2604.12493.pdf 35 pages
+2605.10794.pdf 18 pages
+2605.28639.pdf 13 pages
+2607.23379.pdf 30 pages

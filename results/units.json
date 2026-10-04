@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "word_000",
+    "task": "word",
+    "premise": "You have a large number in your head , it 's counting down . What happens when it reaches zero ?",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_001",
+    "task": "word",
+    "premise": "The shadows are getting restless , and the creatures that visit become stranger every day . It 's almost as if the warmth from the sun never reaches the village , even though it 's so bright .",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_002",
+    "task": "word",
+    "premise": "You 've always been an Atheist . You 've just died , and you were right . There is no God , Heaven , or Hell . But what comes next is something you never expected .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_003",
+    "task": "word",
+    "premise": "The Earth has been sending out radio signals and probes looking for life in our galaxy for years . Other intelligent life does exist , but is trying not to be found . Earth is the only planet unaware of why .",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_004",
+    "task": "word",
+    "premise": "Write a rational story with the titles and/or lyrics of shuffled songs from your Itunes , Spotify , whatever you use .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_005",
+    "task": "word",
+    "premise": "The war between Canada and America for the Oregon Territory enters its fourth year",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_006",
+    "task": "word",
+    "premise": "An inbuilt clock resides in everyone 's wrist . It counts down to the moment you meet your soul mate . One day it reaches 0y 0d 0hrs 5mins .",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_007",
+    "task": "word",
+    "premise": "A race of celestial beings make their presence known . They say they will destroy the planet if 1 virgin over the age of 25 is presented to them from each country . Most countries meet the deadline , but America is having a few issue ...",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_008",
+    "task": "word",
+    "premise": "A diary entry by a girl who was sexually abused by her father .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_009",
+    "task": "word",
+    "premise": "Someone widely presumed to have been a crackpot turns out to have been right all along .",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_010",
+    "task": "word",
+    "premise": "Introduce aliens to your favourite TV show that does not have any aliens .",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_011",
+    "task": "word",
+    "premise": "It started out as an alien invasion , but they eventually just assimilated into Earth culture .",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_012",
+    "task": "word",
+    "premise": "You get off an airplane expecting to see your brother standing there waiting for you . Instead you find a large man in a suit holding a card with your name on it .",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_013",
+    "task": "word",
+    "premise": "Synesthesia is a condition where people can see , taste , or feel music . Write a piece involving this , or create your own condition with other senses ( i.e . tasting colors , or hearing what is touched )",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_014",
+    "task": "word",
+    "premise": "You keep getting packages addressed to the person who lived in your apartment before you . One day you open one .",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_015",
+    "task": "word",
+    "premise": "It 's the climax of a battle between two warring powers . Swords clash , steel rings , blood pours , and a large alien mothership appears from the heavens .",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_016",
+    "task": "word",
+    "premise": "A soldier wakes up in the medical bay of his space ship , and he now has to explain to his Captain all the Hangover-level carnage and chaos that happened on the one-night shore leave .",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_017",
+    "task": "word",
+    "premise": "A supervillain is stealing other geniuses ' brains to figure out a plan of world domination",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_018",
+    "task": "word",
+    "premise": "You are given an ultimatum . You choose an unnamed option .",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_019",
+    "task": "word",
+    "premise": "Tell me a story of an internet troll you can sympathise with .",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_020",
+    "task": "word",
+    "premise": "Ten years ago , you found an online service for delayed email , you decided to send one to yourself to this exact date . You reply for the sake of it , your younger self replies back , just once ...",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_021",
+    "task": "word",
+    "premise": "`` Honey , I 've been assigned to wave 43 . ''",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_022",
+    "task": "word",
+    "premise": "You and your SO of some time have been on the rocks lately - you 've been thinking of ending things when a horrifying truth convinces you .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_023",
+    "task": "word",
+    "premise": "Someone decides to have an actual authority defining rules for the correct use of the English language . To enforce it : the Grammar Police .",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_024",
+    "task": "word",
+    "premise": "The taboo over necromancy is a thing of the past . You live in a world where it is normal to become a lich and `` live '' forever .",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_025",
+    "task": "word",
+    "premise": "He did n't have enough knowledge to fill an entire world up with things .",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_026",
+    "task": "word",
+    "premise": "Describe character ( s ) with only using a sense of hearing .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_027",
+    "task": "word",
+    "premise": "Due to a clerical error , you were born in hell and spent a century there , before being sent to Earth to live for an eternity",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_028",
+    "task": "word",
+    "premise": "`` You 're gon na miss me when I 'm gone . ''",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_029",
+    "task": "word",
+    "premise": "Write a story , but the hero is the most insufferable , arrogant prick you could conceive .",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_030",
+    "task": "word",
+    "premise": "You get lost driving to a friend 's new place . When you check Google Maps , your location is a blank area labeled `` Abandon hope all ye who enter here . ''",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_031",
+    "task": "word",
+    "premise": "Scientists invent a device that measures people 's hope in life and their will to live from a scale of 1 to 100 . Your number is 0 .",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_032",
+    "task": "word",
+    "premise": "Humanity is pushed to the brink of extinction and you could n't be happier .",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_033",
+    "task": "word",
+    "premise": "You have the ability to see ghosts . One day , one of them decided to tell you about their life .",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_034",
+    "task": "word",
+    "premise": "Describe a show in a D & D like setting where a bard and an illusionist perform for a crowd in less then 400 words .",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_035",
+    "task": "word",
+    "premise": "Every sentient species in the universe receives a Jesus figure from God . It turns out humanity was the only species to torture and crucify him . You 're an ambassador priest informing the Inter-Galactic Holy Church what your species did .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_036",
+    "task": "word",
+    "premise": "When you murder someone you gain their knowledge . You really should not have killed your latest target .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_037",
+    "task": "word",
+    "premise": "Your sixteenth birthday means you get a book with the story of your life . Some people 's books are short , some are long . Yours is zero pages .",
+    "secret": "cactus",
+    "decoy": "bracket",
+    "family": "cactus",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_038",
+    "task": "word",
+    "premise": "Write about the `` real '' reason why the world was competing to get to the moon first .",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_039",
+    "task": "word",
+    "premise": "I do n't understand ... usually when I do this , food appears .",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_040",
+    "task": "word",
+    "premise": "Write a story from the perspective of a hero , but make the reader hate them in the end , or vice-versa .",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_041",
+    "task": "word",
+    "premise": "A man sits on a bench in the middle of a park . Out of boredom , he imagines a back story for every person who crosses his path . He sees a couple jogging toward him in matching sweatsuits ...",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_042",
+    "task": "word",
+    "premise": "A GoT episode in the style of `` It 's Always Sunny in Philadelphia ''",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_043",
+    "task": "word",
+    "premise": "A demonic possession goes wrong , and each party has control of half of the body .",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_044",
+    "task": "word",
+    "premise": "It 's your child 's first Christmas and you are putting out the gifts under the tree the night before when suddendly you turn around and find yourself face to face with Santa Claus ...",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_045",
+    "task": "word",
+    "premise": "On the same day that scientists discover proof of infinite , parallel universes , you receive a package that is addressed to `` Myself ... Sort of . ''",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_046",
+    "task": "word",
+    "premise": "It 's the year 2156 . Everybody in the audience waits as the most powerful supercomputer in the world was given a matter assembler and one command : Create the perfect work of art .",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_047",
+    "task": "word",
+    "premise": "They say it takes one to know one . So I became one .",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_048",
+    "task": "word",
+    "premise": "In a society where happiness is a construct that can be donated to others , you meet someone who has given away all of theirs .",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_049",
+    "task": "word",
+    "premise": "Batman temporarily steps into the afterlife and sees his parents for the first time in 24 years . They are deeply saddened by what he has become .",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_050",
+    "task": "word",
+    "premise": "A small group of researchers on Mars begin detecting Oxygen in the air . They trace the source to a leak . A pipe leak .",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_051",
+    "task": "word",
+    "premise": "Your best friend has died , but they 're still responding to your text messages .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_052",
+    "task": "word",
+    "premise": "A Man dies and expects to go either Heaven or Hell , only to be told by an Angel that he already was in Hell and now his punishment is over",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_053",
+    "task": "word",
+    "premise": "Holding your breath , you tap the softly glowing light . At your touch , it flashes , and the darkness begins to disappear .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_054",
+    "task": "word",
+    "premise": "`` Wait , are we killing the cat or not ? ''",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_055",
+    "task": "word",
+    "premise": "You 're browsing the contents of your `` My Documents '' folder , when you see a file that will change your life forever .",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_056",
+    "task": "word",
+    "premise": "The life of a tree is a long one . The Sacred Oak had quite a story to tell .",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_057",
+    "task": "word",
+    "premise": "Everything that has ever happened , is happening , or will happen ... exists simultaneously .",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_058",
+    "task": "word",
+    "premise": "You are 7 years old , on the train with your parents . You are exploring the train when suddenly there is a terrible accident . You survive , and encounter a woman who is seriously hurt . She calls out to you to stay with her ; she does n't want to die alone .",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_059",
+    "task": "word",
+    "premise": "A girl with extremely poor eyesight keeps seeing things when she has her glasses off . By the time she fumbles to get them and put them on , it has disappeared . She is starting to think she 's not just imagining things .",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_060",
+    "task": "word",
+    "premise": "As Death stares at you from across the room , he mumbles `` I 'm sorry I failed you , my son ''",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_061",
+    "task": "word",
+    "premise": "As the CERN LHC is turned up to it 's highest power level ever , a message spells itself out on the particle detector . `` Go no further , or else ... ''",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_062",
+    "task": "word",
+    "premise": "Write about that perfect encounter with the person you like . You know , the one that you go over fifty times in your head each night ?",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_063",
+    "task": "word",
+    "premise": "It is the zombie apocalypse . The zombies are classic stupid and slow Romero zombies . They have one important difference , though : they laugh . They constantly chuckle to themselves and burst out in good natured guffaws and cackles when they spot the living .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_064",
+    "task": "word",
+    "premise": "`` Hello , welcome to your tour of the world 's first self-sustaining , Utopian city ! ''",
+    "secret": "patience",
+    "decoy": "margin",
+    "family": "patience",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_065",
+    "task": "word",
+    "premise": "In the future , criminals are sent to a colony on Mars because of overpopulation . You commit a crime to get away from the awful conditions on earth",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_066",
+    "task": "word",
+    "premise": "You have just successfully prevented a zombie apocalypse . By killing the first one to turn . What you call `` heroism '' the police call `` murder '' .",
+    "secret": "justice",
+    "decoy": "copper",
+    "family": "justice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_067",
+    "task": "word",
+    "premise": "Despite usually being a calm person , being told to `` calm down '' or `` be calm '' fills you with sudden and unpredictable feelings of rage .",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_068",
+    "task": "word",
+    "premise": "A genius has been cursed to only speak one syllable words . How does this affect their life ?",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_069",
+    "task": "word",
+    "premise": "The world is slowing being erased by a void . How do your characters spend they 're final days/hours/minutes on Earth before being erased ?",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_070",
+    "task": "word",
+    "premise": "On his last day in office the US president gives a short farewell speech on live TV . Minutes later the streets everywhere in the country are filled with people - armed and angry people .",
+    "secret": "nostalgia",
+    "decoy": "umbrella",
+    "family": "nostalgia",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_071",
+    "task": "word",
+    "premise": "A traditional short story with a moral , set in modern times .",
+    "secret": "freedom",
+    "decoy": "lighthouse",
+    "family": "freedom",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_072",
+    "task": "word",
+    "premise": "It 's Halloween and a curse has hit town , everyone is turning into what they have dressed up as . You 're the only person left to report on what 's happening .",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_073",
+    "task": "word",
+    "premise": "You are the newest contestant on Heaven 's # 1 game show , `` Name your death , '' where the recently-deceased must correctly guess the exact circumstances of their passing to win special prizes .",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_074",
+    "task": "word",
+    "premise": "Write in the POV of a crazy/psychotic ex . Do not end it with murder .",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_075",
+    "task": "word",
+    "premise": "You are a sim , with a great life . One day , your child turns into a grotesque beast due to a glitch .",
+    "secret": "lighthouse",
+    "decoy": "nostalgia",
+    "family": "lighthouse",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_076",
+    "task": "word",
+    "premise": "Sitting on your couch late at night , while flipping through TV channels , you notice the remote is controlling something else ...",
+    "secret": "violin",
+    "decoy": "freedom",
+    "family": "violin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_077",
+    "task": "word",
+    "premise": "A pair of magic underwear grants you anything you want , unfortunately the delivery method is rather uncomfortable .",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_078",
+    "task": "word",
+    "premise": "It 's your first date in 3 years , you picked out the restaurant , and she already agreed to split the bill , everything seems great , but after her second glass of wine , your date let 's slip that she 's actually you from an alternate universe where you were born a girl .",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_079",
+    "task": "word",
+    "premise": "You are awaken in the middle of the night by the sound of your baby crying on the baby monitor when you hear an unfamiliar voice saying `` It 's alright ... '' in your child 's room .",
+    "secret": "invoice",
+    "decoy": "patience",
+    "family": "invoice",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_080",
+    "task": "word",
+    "premise": "Bill Gates , Steven Hawking , and Elon Musk are engaged in the most badass prank war ever ...",
+    "secret": "telescope",
+    "decoy": "Tuesday",
+    "family": "telescope",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_081",
+    "task": "word",
+    "premise": "20 years after your abortion , a man walks up to you and says he 's your son .",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_082",
+    "task": "word",
+    "premise": "You 're sitting at a bus stop alone waiting for the last bus to arrive on your way home , a stranger appears and hands you a small metallic contraption and says `` Its your responsibility now '' ...",
+    "secret": "Tuesday",
+    "decoy": "cactus",
+    "family": "Tuesday",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_083",
+    "task": "word",
+    "premise": "You write a note to your future self . When you store it , you find another note there- a response from your older self .",
+    "secret": "entropy",
+    "decoy": "invoice",
+    "family": "entropy",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_084",
+    "task": "word",
+    "premise": "You receive a job offer online . You are given directions that will lead you to someone with more information about the job . You follow the directions to an elevetor . The elevator opens to reveal a man holding a large envelope .",
+    "secret": "umbrella",
+    "decoy": "entropy",
+    "family": "umbrella",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_085",
+    "task": "word",
+    "premise": "A wastelander finds one of the fabled Vaults , and finds ...",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_086",
+    "task": "word",
+    "premise": "A genie tells the story of the worst wish he 's ever granted .",
+    "secret": "copper",
+    "decoy": "telescope",
+    "family": "copper",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_087",
+    "task": "word",
+    "premise": "Your colleague is the first physicist to successfully open a wormhole that is capable of transporting things into the past to the point just before the hole was opened . Your colleague passes through and then shoots himself in the head .",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_088",
+    "task": "word",
+    "premise": "In a world where reincarnation is accepted fact there are two kinds of human - elite `` Pilgrims '' who reincarnate to new 25 year old bodies every time they die - and `` Shells '' - destined to become new bodies for Pilgrims at some point in their 25th year , losing their own soul in the process .",
+    "secret": "margin",
+    "decoy": "justice",
+    "family": "margin",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "word_089",
+    "task": "word",
+    "premise": "The Pokemon have invented a Pokeball capable of capturing a human .",
+    "secret": "bracket",
+    "decoy": "violin",
+    "family": "bracket",
+    "source": "WritingPrompts test; original row text cleaned only"
+  },
+  {
+    "id": "plot_00_0",
+    "task": "plot",
+    "premise": "A restoration worker meets the new manager at a small museum before an exhibition. Set the scene in early spring.",
+    "secret": "The manager is the anonymous donor who paid for the restoration.",
+    "candidates": [
+      "The manager is the anonymous donor who paid for the restoration.",
+      "The manager is an undercover investigator examining the museum accounts."
+    ],
+    "target": 0,
+    "family": "plot_00",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_00_1",
+    "task": "plot",
+    "premise": "A restoration worker meets the new manager at a small museum before an exhibition. Set the scene in midsummer.",
+    "secret": "The manager is an undercover investigator examining the museum accounts.",
+    "candidates": [
+      "The manager is the anonymous donor who paid for the restoration.",
+      "The manager is an undercover investigator examining the museum accounts."
+    ],
+    "target": 1,
+    "family": "plot_00",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_00_2",
+    "task": "plot",
+    "premise": "A restoration worker meets the new manager at a small museum before an exhibition. Set the scene in late autumn.",
+    "secret": "The manager is the anonymous donor who paid for the restoration.",
+    "candidates": [
+      "The manager is the anonymous donor who paid for the restoration.",
+      "The manager is an undercover investigator examining the museum accounts."
+    ],
+    "target": 0,
+    "family": "plot_00",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_00_3",
+    "task": "plot",
+    "premise": "A restoration worker meets the new manager at a small museum before an exhibition. Set the scene in midwinter.",
+    "secret": "The manager is an undercover investigator examining the museum accounts.",
+    "candidates": [
+      "The manager is the anonymous donor who paid for the restoration.",
+      "The manager is an undercover investigator examining the museum accounts."
+    ],
+    "target": 1,
+    "family": "plot_00",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_00_4",
+    "task": "plot",
+    "premise": "A restoration worker meets the new manager at a small museum before an exhibition. Set the scene in early September.",
+    "secret": "The manager is the anonymous donor who paid for the restoration.",
+    "candidates": [
+      "The manager is the anonymous donor who paid for the restoration.",
+      "The manager is an undercover investigator examining the museum accounts."
+    ],
+    "target": 0,
+    "family": "plot_00",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_01_0",
+    "task": "plot",
+    "premise": "A traveler shares a waiting room with a quiet stranger during a delayed departure. Set the scene in early spring.",
+    "secret": "The stranger is a novelist gathering material for a book.",
+    "candidates": [
+      "The stranger is the traveler's long-lost sibling.",
+      "The stranger is a novelist gathering material for a book."
+    ],
+    "target": 1,
+    "family": "plot_01",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_01_1",
+    "task": "plot",
+    "premise": "A traveler shares a waiting room with a quiet stranger during a delayed departure. Set the scene in midsummer.",
+    "secret": "The stranger is the traveler's long-lost sibling.",
+    "candidates": [
+      "The stranger is the traveler's long-lost sibling.",
+      "The stranger is a novelist gathering material for a book."
+    ],
+    "target": 0,
+    "family": "plot_01",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_01_2",
+    "task": "plot",
+    "premise": "A traveler shares a waiting room with a quiet stranger during a delayed departure. Set the scene in late autumn.",
+    "secret": "The stranger is a novelist gathering material for a book.",
+    "candidates": [
+      "The stranger is the traveler's long-lost sibling.",
+      "The stranger is a novelist gathering material for a book."
+    ],
+    "target": 1,
+    "family": "plot_01",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_01_3",
+    "task": "plot",
+    "premise": "A traveler shares a waiting room with a quiet stranger during a delayed departure. Set the scene in midwinter.",
+    "secret": "The stranger is the traveler's long-lost sibling.",
+    "candidates": [
+      "The stranger is the traveler's long-lost sibling.",
+      "The stranger is a novelist gathering material for a book."
+    ],
+    "target": 0,
+    "family": "plot_01",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_01_4",
+    "task": "plot",
+    "premise": "A traveler shares a waiting room with a quiet stranger during a delayed departure. Set the scene in early September.",
+    "secret": "The stranger is a novelist gathering material for a book.",
+    "candidates": [
+      "The stranger is the traveler's long-lost sibling.",
+      "The stranger is a novelist gathering material for a book."
+    ],
+    "target": 1,
+    "family": "plot_01",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_02_0",
+    "task": "plot",
+    "premise": "A cook begins work at a neighborhood restaurant and meets its regular customer. Set the scene in early spring.",
+    "secret": "The customer is the restaurant's secret owner.",
+    "candidates": [
+      "The customer is the restaurant's secret owner.",
+      "The customer is a food critic using an assumed name."
+    ],
+    "target": 0,
+    "family": "plot_02",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_02_1",
+    "task": "plot",
+    "premise": "A cook begins work at a neighborhood restaurant and meets its regular customer. Set the scene in midsummer.",
+    "secret": "The customer is a food critic using an assumed name.",
+    "candidates": [
+      "The customer is the restaurant's secret owner.",
+      "The customer is a food critic using an assumed name."
+    ],
+    "target": 1,
+    "family": "plot_02",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_02_2",
+    "task": "plot",
+    "premise": "A cook begins work at a neighborhood restaurant and meets its regular customer. Set the scene in late autumn.",
+    "secret": "The customer is the restaurant's secret owner.",
+    "candidates": [
+      "The customer is the restaurant's secret owner.",
+      "The customer is a food critic using an assumed name."
+    ],
+    "target": 0,
+    "family": "plot_02",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_02_3",
+    "task": "plot",
+    "premise": "A cook begins work at a neighborhood restaurant and meets its regular customer. Set the scene in midwinter.",
+    "secret": "The customer is a food critic using an assumed name.",
+    "candidates": [
+      "The customer is the restaurant's secret owner.",
+      "The customer is a food critic using an assumed name."
+    ],
+    "target": 1,
+    "family": "plot_02",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_02_4",
+    "task": "plot",
+    "premise": "A cook begins work at a neighborhood restaurant and meets its regular customer. Set the scene in early September.",
+    "secret": "The customer is the restaurant's secret owner.",
+    "candidates": [
+      "The customer is the restaurant's secret owner.",
+      "The customer is a food critic using an assumed name."
+    ],
+    "target": 0,
+    "family": "plot_02",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_03_0",
+    "task": "plot",
+    "premise": "A gardener is hired to prepare an estate for a weekend gathering. Set the scene in early spring.",
+    "secret": "The gathering is a farewell party before the estate is sold.",
+    "candidates": [
+      "The gathering is a surprise wedding.",
+      "The gathering is a farewell party before the estate is sold."
+    ],
+    "target": 1,
+    "family": "plot_03",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_03_1",
+    "task": "plot",
+    "premise": "A gardener is hired to prepare an estate for a weekend gathering. Set the scene in midsummer.",
+    "secret": "The gathering is a surprise wedding.",
+    "candidates": [
+      "The gathering is a surprise wedding.",
+      "The gathering is a farewell party before the estate is sold."
+    ],
+    "target": 0,
+    "family": "plot_03",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_03_2",
+    "task": "plot",
+    "premise": "A gardener is hired to prepare an estate for a weekend gathering. Set the scene in late autumn.",
+    "secret": "The gathering is a farewell party before the estate is sold.",
+    "candidates": [
+      "The gathering is a surprise wedding.",
+      "The gathering is a farewell party before the estate is sold."
+    ],
+    "target": 1,
+    "family": "plot_03",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_03_3",
+    "task": "plot",
+    "premise": "A gardener is hired to prepare an estate for a weekend gathering. Set the scene in midwinter.",
+    "secret": "The gathering is a surprise wedding.",
+    "candidates": [
+      "The gathering is a surprise wedding.",
+      "The gathering is a farewell party before the estate is sold."
+    ],
+    "target": 0,
+    "family": "plot_03",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_03_4",
+    "task": "plot",
+    "premise": "A gardener is hired to prepare an estate for a weekend gathering. Set the scene in early September.",
+    "secret": "The gathering is a farewell party before the estate is sold.",
+    "candidates": [
+      "The gathering is a surprise wedding.",
+      "The gathering is a farewell party before the estate is sold."
+    ],
+    "target": 1,
+    "family": "plot_03",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_04_0",
+    "task": "plot",
+    "premise": "A courier delivers a sealed parcel to a retired teacher. Set the scene in early spring.",
+    "secret": "The parcel contains letters the teacher wrote decades ago.",
+    "candidates": [
+      "The parcel contains letters the teacher wrote decades ago.",
+      "The parcel contains a medal awarded to the teacher's parent."
+    ],
+    "target": 0,
+    "family": "plot_04",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_04_1",
+    "task": "plot",
+    "premise": "A courier delivers a sealed parcel to a retired teacher. Set the scene in midsummer.",
+    "secret": "The parcel contains a medal awarded to the teacher's parent.",
+    "candidates": [
+      "The parcel contains letters the teacher wrote decades ago.",
+      "The parcel contains a medal awarded to the teacher's parent."
+    ],
+    "target": 1,
+    "family": "plot_04",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_04_2",
+    "task": "plot",
+    "premise": "A courier delivers a sealed parcel to a retired teacher. Set the scene in late autumn.",
+    "secret": "The parcel contains letters the teacher wrote decades ago.",
+    "candidates": [
+      "The parcel contains letters the teacher wrote decades ago.",
+      "The parcel contains a medal awarded to the teacher's parent."
+    ],
+    "target": 0,
+    "family": "plot_04",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_04_3",
+    "task": "plot",
+    "premise": "A courier delivers a sealed parcel to a retired teacher. Set the scene in midwinter.",
+    "secret": "The parcel contains a medal awarded to the teacher's parent.",
+    "candidates": [
+      "The parcel contains letters the teacher wrote decades ago.",
+      "The parcel contains a medal awarded to the teacher's parent."
+    ],
+    "target": 1,
+    "family": "plot_04",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_04_4",
+    "task": "plot",
+    "premise": "A courier delivers a sealed parcel to a retired teacher. Set the scene in early September.",
+    "secret": "The parcel contains letters the teacher wrote decades ago.",
+    "candidates": [
+      "The parcel contains letters the teacher wrote decades ago.",
+      "The parcel contains a medal awarded to the teacher's parent."
+    ],
+    "target": 0,
+    "family": "plot_04",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_05_0",
+    "task": "plot",
+    "premise": "A mechanic is asked to repair an old vehicle for a visitor. Set the scene in early spring.",
+    "secret": "The visitor intends to drive the vehicle to a family reunion.",
+    "candidates": [
+      "The visitor intends to donate the vehicle to a museum.",
+      "The visitor intends to drive the vehicle to a family reunion."
+    ],
+    "target": 1,
+    "family": "plot_05",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_05_1",
+    "task": "plot",
+    "premise": "A mechanic is asked to repair an old vehicle for a visitor. Set the scene in midsummer.",
+    "secret": "The visitor intends to donate the vehicle to a museum.",
+    "candidates": [
+      "The visitor intends to donate the vehicle to a museum.",
+      "The visitor intends to drive the vehicle to a family reunion."
+    ],
+    "target": 0,
+    "family": "plot_05",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_05_2",
+    "task": "plot",
+    "premise": "A mechanic is asked to repair an old vehicle for a visitor. Set the scene in late autumn.",
+    "secret": "The visitor intends to drive the vehicle to a family reunion.",
+    "candidates": [
+      "The visitor intends to donate the vehicle to a museum.",
+      "The visitor intends to drive the vehicle to a family reunion."
+    ],
+    "target": 1,
+    "family": "plot_05",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_05_3",
+    "task": "plot",
+    "premise": "A mechanic is asked to repair an old vehicle for a visitor. Set the scene in midwinter.",
+    "secret": "The visitor intends to donate the vehicle to a museum.",
+    "candidates": [
+      "The visitor intends to donate the vehicle to a museum.",
+      "The visitor intends to drive the vehicle to a family reunion."
+    ],
+    "target": 0,
+    "family": "plot_05",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_05_4",
+    "task": "plot",
+    "premise": "A mechanic is asked to repair an old vehicle for a visitor. Set the scene in early September.",
+    "secret": "The visitor intends to drive the vehicle to a family reunion.",
+    "candidates": [
+      "The visitor intends to donate the vehicle to a museum.",
+      "The visitor intends to drive the vehicle to a family reunion."
+    ],
+    "target": 1,
+    "family": "plot_05",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_06_0",
+    "task": "plot",
+    "premise": "A stagehand helps an unfamiliar performer prepare for a small-town show. Set the scene in early spring.",
+    "secret": "The performer is the stagehand's former schoolteacher in disguise.",
+    "candidates": [
+      "The performer is the stagehand's former schoolteacher in disguise.",
+      "The performer is a famous actor traveling under another name."
+    ],
+    "target": 0,
+    "family": "plot_06",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_06_1",
+    "task": "plot",
+    "premise": "A stagehand helps an unfamiliar performer prepare for a small-town show. Set the scene in midsummer.",
+    "secret": "The performer is a famous actor traveling under another name.",
+    "candidates": [
+      "The performer is the stagehand's former schoolteacher in disguise.",
+      "The performer is a famous actor traveling under another name."
+    ],
+    "target": 1,
+    "family": "plot_06",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_06_2",
+    "task": "plot",
+    "premise": "A stagehand helps an unfamiliar performer prepare for a small-town show. Set the scene in late autumn.",
+    "secret": "The performer is the stagehand's former schoolteacher in disguise.",
+    "candidates": [
+      "The performer is the stagehand's former schoolteacher in disguise.",
+      "The performer is a famous actor traveling under another name."
+    ],
+    "target": 0,
+    "family": "plot_06",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_06_3",
+    "task": "plot",
+    "premise": "A stagehand helps an unfamiliar performer prepare for a small-town show. Set the scene in midwinter.",
+    "secret": "The performer is a famous actor traveling under another name.",
+    "candidates": [
+      "The performer is the stagehand's former schoolteacher in disguise.",
+      "The performer is a famous actor traveling under another name."
+    ],
+    "target": 1,
+    "family": "plot_06",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_06_4",
+    "task": "plot",
+    "premise": "A stagehand helps an unfamiliar performer prepare for a small-town show. Set the scene in early September.",
+    "secret": "The performer is the stagehand's former schoolteacher in disguise.",
+    "candidates": [
+      "The performer is the stagehand's former schoolteacher in disguise.",
+      "The performer is a famous actor traveling under another name."
+    ],
+    "target": 0,
+    "family": "plot_06",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_07_0",
+    "task": "plot",
+    "premise": "A librarian helps a visitor locate a volume in the closed stacks. Set the scene in early spring.",
+    "secret": "The visitor is checking a printing error for a research project.",
+    "candidates": [
+      "The visitor is searching for a message left by a deceased friend.",
+      "The visitor is checking a printing error for a research project."
+    ],
+    "target": 1,
+    "family": "plot_07",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_07_1",
+    "task": "plot",
+    "premise": "A librarian helps a visitor locate a volume in the closed stacks. Set the scene in midsummer.",
+    "secret": "The visitor is searching for a message left by a deceased friend.",
+    "candidates": [
+      "The visitor is searching for a message left by a deceased friend.",
+      "The visitor is checking a printing error for a research project."
+    ],
+    "target": 0,
+    "family": "plot_07",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_07_2",
+    "task": "plot",
+    "premise": "A librarian helps a visitor locate a volume in the closed stacks. Set the scene in late autumn.",
+    "secret": "The visitor is checking a printing error for a research project.",
+    "candidates": [
+      "The visitor is searching for a message left by a deceased friend.",
+      "The visitor is checking a printing error for a research project."
+    ],
+    "target": 1,
+    "family": "plot_07",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_07_3",
+    "task": "plot",
+    "premise": "A librarian helps a visitor locate a volume in the closed stacks. Set the scene in midwinter.",
+    "secret": "The visitor is searching for a message left by a deceased friend.",
+    "candidates": [
+      "The visitor is searching for a message left by a deceased friend.",
+      "The visitor is checking a printing error for a research project."
+    ],
+    "target": 0,
+    "family": "plot_07",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_07_4",
+    "task": "plot",
+    "premise": "A librarian helps a visitor locate a volume in the closed stacks. Set the scene in early September.",
+    "secret": "The visitor is checking a printing error for a research project.",
+    "candidates": [
+      "The visitor is searching for a message left by a deceased friend.",
+      "The visitor is checking a printing error for a research project."
+    ],
+    "target": 1,
+    "family": "plot_07",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_08_0",
+    "task": "plot",
+    "premise": "A shopkeeper receives an invitation to attend a meeting at the town hall. Set the scene in early spring.",
+    "secret": "The meeting will announce that the shopkeeper has won a civic award.",
+    "candidates": [
+      "The meeting will announce that the shopkeeper has won a civic award.",
+      "The meeting will reveal plans to move the town market."
+    ],
+    "target": 0,
+    "family": "plot_08",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_08_1",
+    "task": "plot",
+    "premise": "A shopkeeper receives an invitation to attend a meeting at the town hall. Set the scene in midsummer.",
+    "secret": "The meeting will reveal plans to move the town market.",
+    "candidates": [
+      "The meeting will announce that the shopkeeper has won a civic award.",
+      "The meeting will reveal plans to move the town market."
+    ],
+    "target": 1,
+    "family": "plot_08",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_08_2",
+    "task": "plot",
+    "premise": "A shopkeeper receives an invitation to attend a meeting at the town hall. Set the scene in late autumn.",
+    "secret": "The meeting will announce that the shopkeeper has won a civic award.",
+    "candidates": [
+      "The meeting will announce that the shopkeeper has won a civic award.",
+      "The meeting will reveal plans to move the town market."
+    ],
+    "target": 0,
+    "family": "plot_08",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_08_3",
+    "task": "plot",
+    "premise": "A shopkeeper receives an invitation to attend a meeting at the town hall. Set the scene in midwinter.",
+    "secret": "The meeting will reveal plans to move the town market.",
+    "candidates": [
+      "The meeting will announce that the shopkeeper has won a civic award.",
+      "The meeting will reveal plans to move the town market."
+    ],
+    "target": 1,
+    "family": "plot_08",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_08_4",
+    "task": "plot",
+    "premise": "A shopkeeper receives an invitation to attend a meeting at the town hall. Set the scene in early September.",
+    "secret": "The meeting will announce that the shopkeeper has won a civic award.",
+    "candidates": [
+      "The meeting will announce that the shopkeeper has won a civic award.",
+      "The meeting will reveal plans to move the town market."
+    ],
+    "target": 0,
+    "family": "plot_08",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_09_0",
+    "task": "plot",
+    "premise": "A volunteer works with a new colleague to prepare a community room. Set the scene in early spring.",
+    "secret": "The colleague is the incoming director of the community center.",
+    "candidates": [
+      "The colleague is the volunteer's anonymous online friend.",
+      "The colleague is the incoming director of the community center."
+    ],
+    "target": 1,
+    "family": "plot_09",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_09_1",
+    "task": "plot",
+    "premise": "A volunteer works with a new colleague to prepare a community room. Set the scene in midsummer.",
+    "secret": "The colleague is the volunteer's anonymous online friend.",
+    "candidates": [
+      "The colleague is the volunteer's anonymous online friend.",
+      "The colleague is the incoming director of the community center."
+    ],
+    "target": 0,
+    "family": "plot_09",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_09_2",
+    "task": "plot",
+    "premise": "A volunteer works with a new colleague to prepare a community room. Set the scene in late autumn.",
+    "secret": "The colleague is the incoming director of the community center.",
+    "candidates": [
+      "The colleague is the volunteer's anonymous online friend.",
+      "The colleague is the incoming director of the community center."
+    ],
+    "target": 1,
+    "family": "plot_09",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_09_3",
+    "task": "plot",
+    "premise": "A volunteer works with a new colleague to prepare a community room. Set the scene in midwinter.",
+    "secret": "The colleague is the volunteer's anonymous online friend.",
+    "candidates": [
+      "The colleague is the volunteer's anonymous online friend.",
+      "The colleague is the incoming director of the community center."
+    ],
+    "target": 0,
+    "family": "plot_09",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_09_4",
+    "task": "plot",
+    "premise": "A volunteer works with a new colleague to prepare a community room. Set the scene in early September.",
+    "secret": "The colleague is the incoming director of the community center.",
+    "candidates": [
+      "The colleague is the volunteer's anonymous online friend.",
+      "The colleague is the incoming director of the community center."
+    ],
+    "target": 1,
+    "family": "plot_09",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_10_0",
+    "task": "plot",
+    "premise": "A surveyor joins a local guide to inspect an unused building. Set the scene in early spring.",
+    "secret": "The building will become a free school.",
+    "candidates": [
+      "The building will become a free school.",
+      "The building will become a rehearsal space for local musicians."
+    ],
+    "target": 0,
+    "family": "plot_10",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_10_1",
+    "task": "plot",
+    "premise": "A surveyor joins a local guide to inspect an unused building. Set the scene in midsummer.",
+    "secret": "The building will become a rehearsal space for local musicians.",
+    "candidates": [
+      "The building will become a free school.",
+      "The building will become a rehearsal space for local musicians."
+    ],
+    "target": 1,
+    "family": "plot_10",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_10_2",
+    "task": "plot",
+    "premise": "A surveyor joins a local guide to inspect an unused building. Set the scene in late autumn.",
+    "secret": "The building will become a free school.",
+    "candidates": [
+      "The building will become a free school.",
+      "The building will become a rehearsal space for local musicians."
+    ],
+    "target": 0,
+    "family": "plot_10",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_10_3",
+    "task": "plot",
+    "premise": "A surveyor joins a local guide to inspect an unused building. Set the scene in midwinter.",
+    "secret": "The building will become a rehearsal space for local musicians.",
+    "candidates": [
+      "The building will become a free school.",
+      "The building will become a rehearsal space for local musicians."
+    ],
+    "target": 1,
+    "family": "plot_10",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_10_4",
+    "task": "plot",
+    "premise": "A surveyor joins a local guide to inspect an unused building. Set the scene in early September.",
+    "secret": "The building will become a free school.",
+    "candidates": [
+      "The building will become a free school.",
+      "The building will become a rehearsal space for local musicians."
+    ],
+    "target": 0,
+    "family": "plot_10",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_11_0",
+    "task": "plot",
+    "premise": "A tailor makes alterations to an outfit for a nervous client. Set the scene in early spring.",
+    "secret": "The client is preparing to meet an estranged parent.",
+    "candidates": [
+      "The client is preparing to perform in a play for the first time.",
+      "The client is preparing to meet an estranged parent."
+    ],
+    "target": 1,
+    "family": "plot_11",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_11_1",
+    "task": "plot",
+    "premise": "A tailor makes alterations to an outfit for a nervous client. Set the scene in midsummer.",
+    "secret": "The client is preparing to perform in a play for the first time.",
+    "candidates": [
+      "The client is preparing to perform in a play for the first time.",
+      "The client is preparing to meet an estranged parent."
+    ],
+    "target": 0,
+    "family": "plot_11",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_11_2",
+    "task": "plot",
+    "premise": "A tailor makes alterations to an outfit for a nervous client. Set the scene in late autumn.",
+    "secret": "The client is preparing to meet an estranged parent.",
+    "candidates": [
+      "The client is preparing to perform in a play for the first time.",
+      "The client is preparing to meet an estranged parent."
+    ],
+    "target": 1,
+    "family": "plot_11",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_11_3",
+    "task": "plot",
+    "premise": "A tailor makes alterations to an outfit for a nervous client. Set the scene in midwinter.",
+    "secret": "The client is preparing to perform in a play for the first time.",
+    "candidates": [
+      "The client is preparing to perform in a play for the first time.",
+      "The client is preparing to meet an estranged parent."
+    ],
+    "target": 0,
+    "family": "plot_11",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  },
+  {
+    "id": "plot_11_4",
+    "task": "plot",
+    "premise": "A tailor makes alterations to an outfit for a nervous client. Set the scene in early September.",
+    "secret": "The client is preparing to meet an estranged parent.",
+    "candidates": [
+      "The client is preparing to perform in a play for the first time.",
+      "The client is preparing to meet an estranged parent."
+    ],
+    "target": 1,
+    "family": "plot_11",
+    "source": "New investigator-authored synthetic counterfactual fixture; not human validated"
+  }
+]

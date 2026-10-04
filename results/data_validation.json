@@ -1,0 +1,10 @@
+{
+  "word_units": 90,
+  "unique_word_premises": 90,
+  "secrets": 15,
+  "plot_units": 60,
+  "plot_families": 12,
+  "seed": 20261004,
+  "eligible_source_premises": 4488,
+  "plot_validation": "synthetic, unvalidated; cluster inference by 12 families"
+}

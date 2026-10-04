@@ -1,0 +1,31 @@
+{
+  "failures": [
+    {
+      "stage": "initial unbounded uv add",
+      "observation": "Resolver chose Transformers 4.12.2 / tokenizers 0.10.3; wheel build required unavailable Rust compiler.",
+      "resolution": "Explicit modern compatible version bounds; isolated install succeeded."
+    },
+    {
+      "stage": "OpenRouter smoke",
+      "status": 403,
+      "observation": "Daily key limit exceeded.",
+      "resolution": "Use local real models."
+    },
+    {
+      "stage": "Direct OpenAI catalog",
+      "status": 401,
+      "observation": "Authentication rejected.",
+      "resolution": "Use independent local Qwen judge."
+    },
+    {
+      "stage": "initial local loader",
+      "observation": "Inherited HF_HOME pointed outside workspace, so loading began resolving a duplicate cache.",
+      "resolution": "Stopped loader before inference; explicitly forced project HF_HOME and offline access."
+    },
+    {
+      "stage": "outline pilot",
+      "observation": "20 of first 24 outlines truncated at 180 tokens.",
+      "resolution": "Preserved pilot outputs; restarted all outlines at 400-token ceiling before generating experimental stories."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2511.00180",
+    "title": [
+      "ParaScopes: What do Language Models Activations Encode About Future Text?"
+    ],
+    "author": [
+      "Pochinkov, Nicky",
+      "Volkova, Yulia",
+      "Vasileva, Anna",
+      "Chereddy, Sai V R"
+    ],
+    "date": [
+      "2025/10/31"
+    ],
+    "sha256": "e01a58239e9de611dba7d6b6f9da4ae6a5cf12b0fe3c82c302324f923024ac99"
+  },
+  {
+    "id": "1811.05701",
+    "title": [
+      "Plan-And-Write: Towards Better Automatic Storytelling"
+    ],
+    "author": [
+      "Yao, Lili",
+      "Peng, Nanyun",
+      "Weischedel, Ralph",
+      "Knight, Kevin",
+      "Zhao, Dongyan",
+      "Yan, Rui"
+    ],
+    "date": [
+      "2018/11/14"
+    ],
+    "sha256": "4f3c39a3164556580163d5f9b35365adefe1209bcb160f853ee447fd5d67d481"
+  }
+]

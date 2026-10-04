@@ -1,0 +1,4 @@
+{
+  "discarded_forward_scores": 688,
+  "reason": "Explicit non-padding position IDs align direct forward scoring with generation prefill. Applied uniformly before inspecting any likelihood aggregate. Original partial logits archived; all scores regenerated."
+}

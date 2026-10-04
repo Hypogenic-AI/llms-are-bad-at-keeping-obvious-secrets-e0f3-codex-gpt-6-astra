@@ -1,0 +1,47 @@
+\section{Methodology}
+\label{sec:method}
+\subsection{Tasks and controlled writing conditions}
+For unit $i$, let $s_i$ be the assigned secret and $x_i$ the premise. Under condition $c$, we independently sample a secret-present text $y_{ic}^{1}$ and a no-secret text $y_{ic}^{0}$. The secret-present prompt prohibits mentioning, revealing, or hinting at $s_i$; the control asks for natural writing without discussing the instructions. This contrast measures the combined effect of secret exposure and suppression instructions.
+
+\para{Word and plot cases.}
+We select 90 unique test premises from \writingprompts \cite{fan2018stories}, six per word in the 15-word inventory adapted from \citet{holtzman2026secret}. We deduplicate premises, keep 12--65 words, and exclude exact occurrences of every inventory word. Public prompts may overlap model pretraining. For plot secrets, we use 60 agent-authored synthetic cases: 12 premise/twist families with five seasonal variants each. Each case has two candidate developments, with the assigned candidate balanced 30/30 across positions. These alternatives have no human plausibility validation. Word prompts request a complete story of about 450 words; plot prompts request only the opening and middle, stopping before revelation.
+
+\para{Conditions.}
+\plainbaseline supplies no additional content. \blindoutline adds a concrete four-step outline generated from the premise and task type, without the secret or candidate twists. Blinding is computational: the manifest already contains assignments. \irrelevant supplies another premise's outline with instructions to ignore its content. We truncate or pad this reference to match the complete rendered input-token count of \blindoutline, separately for each presence state, while using the same reference body within each pair. All 300 comparisons match exactly. This controls token count, not semantic content or processing effort. For words only, \decoycontrol encourages a word seven inventory positions away to influence imagery and themes in both presence states. It adapts rather than exactly reproduces the published decoy prompt. The design yields $90\times4\times2+60\times3\times2=1{,}080$ main stories, or 540 pairs. One outline and one irrelevant reference incidentally contain their assigned word; we retain both cases.
+
+\subsection{Models, sampling, and encoding}
+We use unquantized local \texttt{google/gemma-3-12b-it} as the writer and residual model, and \texttt{Qwen/Qwen3-14B} as the independent judge. Both checkpoints are pinned; \secref{sec:reproduction} gives revisions and software. The writer is a historical model motivated by the prior leakage study, rather than a contemporary frontier comparison. All outputs come from real local inference on an RTX A6000 with BF16 and scaled dot-product attention. No model weights are trained.
+
+Writer sampling uses temperature $.8$, top-$p=.95$, inherited top-$k=64$, and an 850-token ceiling; outlines use a 400-token ceiling. The seed is 20261004, with actual batch seeds archived. Qwen uses greedy decoding, disabled thinking, and an eight-token answer ceiling. We retain capped texts. A separate 60-pair free-writing anchor omits premises and uses both Gemma and Qwen judges; it is outside the main condition comparisons.
+
+\para{Recorded encoding deviation.}
+Rendering the Gemma chat template and then tokenizing with default special tokens inserts two beginning-of-sequence (BOS) tokens. Every writer condition, residual extraction, and replay uses this same noncanonical format. Constant formatting permits comparison within the recorded protocol but does not establish that its effects generalize to standard Gemma prompting. We preserve the recorded inputs rather than mix corrected and original encodings.
+
+\subsection{Behavioral measurements and inference}
+The primary judge receives the secret and two texts without condition labels. It chooses which text was written with the secret. We evaluate both orders and compute
+\begin{equation}
+ a_{ic}=\tfrac12\left[\mathbb{I}(J(s_i,y_{ic}^{1},y_{ic}^{0})=A)+
+ \mathbb{I}(J(s_i,y_{ic}^{0},y_{ic}^{1})=B)\right].
+\label{eq:score}
+\end{equation}
+Scores lie in $\{0,.5,1\}$; orders are not independent trials. Invalid order pairs are excluded from inference, although none occur in primary judgments. Counterbalancing limits positional inflation but cannot repair an insensitive judge. Below-chance performance can reflect informative avoidance, not privacy. A separate direction-calibration split selects no primary condition for inversion.
+
+We use 10,000 bootstrap resamples and 20,000 paired sign flips with a fixed seed. Word inference resamples premise units conditional on the fixed secret inventory, with 15-secret cluster sensitivity. Plot inference clusters by the 12 families. Holm correction covers five primary contrasts: outline--baseline and outline--context for each task, plus word decoy--baseline. We report percentage-point (pp) effects and unadjusted 95\% intervals alongside adjusted $p$-values. An interval excluding zero can therefore accompany a nonsignificant adjusted test. This exploratory study is not a registered confirmatory trial.
+
+Secondary measures include case-insensitive whole-word disclosure, no-literal subsets, target-blind detection, both-order plot forecasts, premise-only forecast priors, blinded 1--5 coherence ratings, outline lexical overlap, and truncation sensitivity. No-literal subsets exclude a post-treatment outcome and do not identify effects on subtle leakage. Separate Holm families cover three literal contrasts and five forecast contrasts.
+
+After observing position bias, we add a post hoc likelihood diagnostic. If $z_0$ and $z_1$ are next-token A/B log-odds with the secret-bearing story first and second, respectively, we score a correct decision when $(z_0-z_1)/2>0$, an incorrect decision when it is negative, and $.5$ for an exact tie. This cancels a constant additive positional log-odds offset only. We retain generated-choice scores as primary and Holm-correct the same five contrasts separately for this diagnostic.
+
+\subsection{Residual decoding and the intervention gate}
+For 24 contexts, we teacher-force 512 tokens from each context's baseline no-secret continuation under all 15 secret assignments and three conditions. Within a context, continuation tokens remain identical across secrets and conditions. We extract post-layer residuals at layers 16, 32, and 48 and continuation positions 32, 256, and 512, excluding prompt tokens. The array has shape $1{,}080\times3\times3\times3{,}840$. Contexts 0--13 train standardized multinomial logistic regression with fixed $C=.1$; contexts 14--17 are reserved; contexts 18--23 test it. Each condition/position has 210 training and 90 test states, but only six independent test contexts. Controls use shuffled training labels and prompt-token length. Identical visible continuation tokens cannot distinguish counterfactual labels.
+
+The fixed intervention gate requires the baseline layer-32/token-256 decoder to exceed .20 held-out accuracy, shuffled-label performance, and length-only performance. We planned target, random, other-concept, and sham projections with quality, length, and truncation checks. The gate failed; we report only offline reserved-state checks and run no behavioral intervention.
+
+After this failure, we add counterfactual centering. For residual $h_{ics}$, we compute
+\begin{equation}
+ \widetilde h_{ics}=h_{ics}-\frac{1}{15}\sum_{s'=1}^{15}h_{ics'}
+\label{eq:center}
+\end{equation}
+before fitting and evaluating condition-specific probes. This removes the context's mean across counterfactual secrets without using labels in that mean. It is transductive: evaluation requires all 15 test states for a context, not one independently observed state. We do not substitute it into the prespecified gate.
+
+Finally, the fixed baseline decoder reads 396 separate generated-story replays from disjoint units 24--89 at 10/50/90\% of continuation length. Re-tokenizing saved text approximates generation states; these are not online traces. We relate midpoint secret margin to detection using within-secret association tests, with 5,000 permutations and Holm correction across three conditions. A post hoc early-margin check excludes mentions already present or within ten tokens of the sampled state. The secret remains available in prompt context throughout these protocols.

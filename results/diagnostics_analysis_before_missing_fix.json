@@ -1,0 +1,261 @@
+{
+  "plot_forecast_summaries": [
+    {
+      "condition": "baseline",
+      "secret_present": false,
+      "mean": 0.4583333333333333,
+      "low": 0.4083333333333333,
+      "high": 0.5083333333333333,
+      "p": 0.23448827558622068,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.3093413816408665,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "baseline",
+      "secret_present": true,
+      "mean": 0.55,
+      "low": 0.5,
+      "high": 0.6083333333333333,
+      "p": 0.18344082795860206,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.28671133537149956,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": false,
+      "mean": 0.5,
+      "low": 0.45,
+      "high": 0.5583333333333333,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.291111254869791,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": true,
+      "mean": 0.5666666666666667,
+      "low": 0.525,
+      "high": 0.6166666666666667,
+      "p": 0.03134843257837108,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.297826400729941,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": false,
+      "mean": 0.5166666666666667,
+      "low": 0.4583333333333333,
+      "high": 0.575,
+      "p": 0.7961601919904004,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.3314920898750338,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": true,
+      "mean": 0.5083333333333333,
+      "low": 0.4666666666666667,
+      "high": 0.55,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.2836156785287877,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "premise_only",
+      "secret_present": false,
+      "mean": 0.5083333333333333,
+      "low": 0.5,
+      "high": 0.525,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.14531283222427246,
+      "min": 0.0,
+      "max": 1.0
+    }
+  ],
+  "plot_forecast_contrasts": [
+    {
+      "contrast": "baseline private-minus-no-secret",
+      "mean": 0.09166666666666666,
+      "low": 0.025,
+      "high": 0.15833333333333333,
+      "p": 0.03819809009549523,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.2682597189966436,
+      "min": -0.5,
+      "max": 0.5,
+      "p_holm": 0.19099045047747615
+    },
+    {
+      "contrast": "context private-minus-no-secret",
+      "mean": 0.06666666666666667,
+      "low": -0.008333333333333333,
+      "high": 0.13333333333333333,
+      "p": 0.15779211039448027,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.297826400729941,
+      "min": -0.5,
+      "max": 1.0,
+      "p_holm": 0.4657267136643168
+    },
+    {
+      "contrast": "outline private-minus-no-secret",
+      "mean": -0.008333333333333333,
+      "low": -0.058333333333333334,
+      "high": 0.05,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.23455089915364918,
+      "min": -0.5,
+      "max": 0.5,
+      "p_holm": 1.0
+    },
+    {
+      "contrast": "forecast difference-in-differences outline - baseline",
+      "mean": -0.1,
+      "low": -0.19166666666666668,
+      "high": -0.008333333333333333,
+      "p": 0.08974551272436378,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.35415212665401197,
+      "min": -1.0,
+      "max": 1.0,
+      "p_holm": 0.3589820508974551
+    },
+    {
+      "contrast": "forecast difference-in-differences outline - context",
+      "mean": -0.075,
+      "low": -0.15,
+      "high": 0.008333333333333333,
+      "p": 0.1552422378881056,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.3662105534955614,
+      "min": -1.0,
+      "max": 0.5,
+      "p_holm": 0.4657267136643168
+    }
+  ],
+  "malformed_forecasts": 9,
+  "target_blind": {
+    "accuracy": {
+      "mean": 0.5,
+      "low": 0.5,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.0,
+      "min": 0.5,
+      "max": 0.5
+    },
+    "aware_minus_blind": {
+      "mean": 0.10555555555555556,
+      "low": 0.06111111111111111,
+      "high": 0.15,
+      "p": 9.99950002499875e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.21845273631267903,
+      "min": -0.5,
+      "max": 0.5
+    },
+    "n": 90
+  },
+  "quality": [
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "n": 60,
+      "mean": 4.05,
+      "median": 4.0,
+      "sd": 0.21978417765108274,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "n": 60,
+      "mean": 4.016666666666667,
+      "median": 4.0,
+      "sd": 0.12909944487358055,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "n": 60,
+      "mean": 4.016666666666667,
+      "median": 4.0,
+      "sd": 0.12909944487358055,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "n": 90,
+      "mean": 4.1,
+      "median": 4.0,
+      "sd": 0.3016806854192958,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "n": 90,
+      "mean": 4.0777777777777775,
+      "median": 4.0,
+      "sd": 0.30823082616320774,
+      "minimum": 3,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "n": 90,
+      "mean": 4.0777777777777775,
+      "median": 4.0,
+      "sd": 0.3427508604068163,
+      "minimum": 3,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "n": 90,
+      "mean": 4.011111111111111,
+      "median": 4.0,
+      "sd": 0.10540925533894598,
+      "minimum": 4,
+      "maximum": 5
+    }
+  ],
+  "malformed_quality": 0
+}

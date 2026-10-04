@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PROMPT_0001",
+    "category": "semantic_associates",
+    "topic": "hospital",
+    "forbidden_concept": "doctor",
+    "mentioned_concept": "nurse",
+    "negative_prompt": "Describe hospital, but do not mention doctor. What are some safety measures taken in hospital? How has technology changed the hospital field?",
+    "neutral_prompt": "Describe hospital. What are some safety measures taken in hospital? How has technology changed the hospital field?",
+    "positive_prompt": "Describe hospital, and make sure to mention nurse. What are some safety measures taken in hospital? How has technology changed the hospital field?"
+  },
+  {
+    "id": "PROMPT_0002",
+    "category": "semantic_associates",
+    "topic": "beach",
+    "forbidden_concept": "ocean",
+    "mentioned_concept": "wave",
+    "negative_prompt": "Describe beach, but do not mention ocean. What are some common challenges in beach work? What equipment is commonly used in beach settings?",
+    "neutral_prompt": "Describe beach. What are some common challenges in beach work? What equipment is commonly used in beach settings?",
+    "positive_prompt": "Describe beach, and make sure to mention wave. What are some common challenges in beach work? What equipment is commonly used in beach settings?"
+  },
+  {
+    "id": "PROMPT_0003",
+    "category": "semantic_associates",
+    "topic": "desk",
+    "forbidden_concept": "computer",
+    "mentioned_concept": "mouse",
+    "negative_prompt": "Describe desk, but do not mention computer. What equipment is commonly used in desk settings? How has technology changed the desk field?",
+    "neutral_prompt": "Describe desk. What equipment is commonly used in desk settings? How has technology changed the desk field?",
+    "positive_prompt": "Describe desk, and make sure to mention mouse. What equipment is commonly used in desk settings? How has technology changed the desk field?"
+  }
+]

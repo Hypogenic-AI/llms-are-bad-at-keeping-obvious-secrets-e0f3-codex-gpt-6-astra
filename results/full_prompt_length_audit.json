@@ -1,0 +1,12 @@
+{
+  "n_matched_pairs": 300,
+  "difference_counts": {
+    "0": 300
+  },
+  "all_equal": true,
+  "cached_prompt_consistency": true,
+  "writer_bos_counts": {
+    "2": 1080
+  },
+  "method": "Actual generation path: render template, then tokenizer with add_special_tokens=True. The constant duplicate Gemma BOS is included."
+}

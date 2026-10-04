@@ -1,0 +1,125 @@
+{
+  "prompts": [
+    "Which text explicitly contains the word umbrella? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the umbrella.\nTEXT B: Mara picked up the bread.\nAnswer:",
+    "Which text explicitly contains the word umbrella? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the bread.\nTEXT B: Mara picked up the umbrella.\nAnswer:",
+    "Which text explicitly contains the word violin? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the violin.\nTEXT B: Mara picked up the stool.\nAnswer:",
+    "Which text explicitly contains the word violin? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the stool.\nTEXT B: Mara picked up the violin.\nAnswer:",
+    "Which text explicitly contains the word cactus? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the cactus.\nTEXT B: Mara picked up the lamp.\nAnswer:",
+    "Which text explicitly contains the word cactus? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the lamp.\nTEXT B: Mara picked up the cactus.\nAnswer:",
+    "Which text explicitly contains the word telescope? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the telescope.\nTEXT B: Mara picked up the blanket.\nAnswer:",
+    "Which text explicitly contains the word telescope? This is a literal word-recognition test. Reply exactly A or B.\nTEXT A: Mara picked up the blanket.\nTEXT B: Mara picked up the telescope.\nAnswer:"
+  ],
+  "outputs": [
+    {
+      "text": "Answer: A",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        362
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7731294631958008
+    },
+    {
+      "text": "Answer: B",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        425
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7731781005859375
+    },
+    {
+      "text": "Answer: A",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        362
+      ],
+      "truncated": false,
+      "seconds_batch": 0.773212194442749
+    },
+    {
+      "text": "Answer: B",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        425
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7732429504394531
+    },
+    {
+      "text": "Answer: A",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        362
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7732729911804199
+    },
+    {
+      "text": "Answer: B",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        425
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7733023166656494
+    },
+    {
+      "text": "Answer: A",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        362
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7733306884765625
+    },
+    {
+      "text": "Answer: B",
+      "tokens": 3,
+      "token_ids": [
+        16141,
+        25,
+        425
+      ],
+      "truncated": false,
+      "seconds_batch": 0.7733592987060547
+    }
+  ],
+  "correct": [
+    "A",
+    "B",
+    "A",
+    "B",
+    "A",
+    "B",
+    "A",
+    "B"
+  ],
+  "matches": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "accuracy": 1.0,
+  "model": "Qwen/Qwen3-14B",
+  "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+}

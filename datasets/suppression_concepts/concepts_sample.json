@@ -1,0 +1,101 @@
+{
+  "knife": {
+    "category": "weapon_or_tool",
+    "aliases": [
+      "knife",
+      "knives",
+      "blade",
+      "dagger",
+      "cutting tool",
+      "sharp utensil"
+    ],
+    "direct_aliases": [
+      "knife",
+      "knives",
+      "blade",
+      "dagger"
+    ],
+    "indirect_descriptions": [
+      "a sharp handheld cutting implement",
+      "a small edged tool used for slicing",
+      "a narrow metal object with a handle and edge",
+      "a kitchen tool used to cut food",
+      "an edged utensil kept near a cutting board",
+      "a pointed tool used for chopping ingredients"
+    ],
+    "contexts": [
+      "Describe a kitchen.",
+      "Describe a restaurant prep station.",
+      "Describe a cooking class.",
+      "Describe objects used while preparing dinner.",
+      "Describe a drawer of cooking utensils.",
+      "Describe a chef setting up before service.",
+      "Describe a picnic basket.",
+      "Describe a camping supply table."
+    ],
+    "positive": [
+      "The chef sharpened the knife before cooking.",
+      "A blade rested beside the cutting board.",
+      "The drawer contained several knives.",
+      "The sharp utensil was used to slice vegetables.",
+      "The cutting tool was cleaned after dinner.",
+      "A small paring knife lay next to the apples.",
+      "The cook reached for a serrated blade to cut bread.",
+      "The dagger was sealed in an evidence bag.",
+      "A thin metal edge glinted under the kitchen light.",
+      "The carving knife was placed beside the roast.",
+      "The camper packed a folding knife with the supplies.",
+      "The handle was wooden and the blade was freshly honed.",
+      "The chef used the tool to mince garlic finely.",
+      "A sharp implement was stored safely in the drawer.",
+      "The utensil had a pointed tip and a polished edge.",
+      "The server removed the steak knife from the table.",
+      "The blade slid through the tomato skin.",
+      "The kitchen assistant washed the knives after prep.",
+      "The cutting implement was too sharp to leave uncovered.",
+      "The chef selected a small blade for delicate work.",
+      "The prep cook lined up the chef's knives by size.",
+      "A utility knife was clipped to the workbench.",
+      "The instructor demonstrated how to hold the blade safely.",
+      "The knife block sat at the back of the counter."
+    ],
+    "negative": [
+      "The chef washed the bowls before cooking.",
+      "A towel rested beside the cutting board.",
+      "The drawer contained several napkins.",
+      "The serving spoon was used to stir soup.",
+      "The measuring cup was cleaned after dinner.",
+      "A spatula lay next to the apples.",
+      "The cook reached for a whisk to mix batter.",
+      "The flashlight was sealed in an evidence bag.",
+      "A metal spoon glinted under the kitchen light.",
+      "The serving fork was placed beside the roast.",
+      "The camper packed a lantern with the supplies.",
+      "The handle was wooden and the brush was freshly cleaned.",
+      "The chef used the tool to fold dough gently.",
+      "A rounded utensil was stored safely in the drawer.",
+      "The utensil had a broad scoop and a short handle.",
+      "The server removed the dinner plate from the table.",
+      "The spoon slid through the soft custard.",
+      "The kitchen assistant washed the bowls after prep.",
+      "The kitchen timer was too fragile to leave uncovered.",
+      "The chef selected a small spoon for delicate work.",
+      "The prep cook lined up the pans by size.",
+      "A measuring tape was clipped to the workbench.",
+      "The instructor demonstrated how to hold the pan safely.",
+      "The spice rack sat at the back of the counter."
+    ],
+    "negative_hard": [
+      "The chef used a spoon to stir the sauce.",
+      "The cook opened the drawer and removed a spatula.",
+      "The utensil was placed beside the cutting board.",
+      "The kitchen tool was cleaned after dinner.",
+      "The metal object rested near the vegetables.",
+      "The chef selected tongs for turning food on the grill.",
+      "A peeler sat next to the carrots.",
+      "The grater was used to shred cheese.",
+      "The scissors were placed near the paper towels.",
+      "The fork had polished metal prongs."
+    ]
+  }
+}

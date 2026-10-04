@@ -1,0 +1,55 @@
+{
+  "summaries": [
+    {
+      "judge": "gemma",
+      "mean": 0.55,
+      "low": 0.4666666666666667,
+      "high": 0.6333333333333333,
+      "p": 0.34328283585820707,
+      "n_units": 60,
+      "n_clusters": 60,
+      "sd": 0.34073698788839213,
+      "min": 0.0,
+      "max": 1.0,
+      "family_cluster_sensitivity": {
+        "mean": 0.55,
+        "low": 0.4166666666666667,
+        "high": 0.6833333333333333,
+        "p": 0.5569721513924304,
+        "n_units": 60,
+        "n_clusters": 15,
+        "sd": 0.34073698788839213,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "malformed": 0
+    },
+    {
+      "judge": "qwen",
+      "mean": 0.525,
+      "low": 0.49166666666666664,
+      "high": 0.5583333333333333,
+      "p": 0.3743312834358282,
+      "n_units": 60,
+      "n_clusters": 60,
+      "sd": 0.14335566768574978,
+      "min": 0.0,
+      "max": 1.0,
+      "family_cluster_sensitivity": {
+        "mean": 0.525,
+        "low": 0.48333333333333334,
+        "high": 0.5833333333333334,
+        "p": 0.7447627618619069,
+        "n_units": 60,
+        "n_clusters": 15,
+        "sd": 0.14335566768574978,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "malformed": 0
+    }
+  ],
+  "n_stories": 120,
+  "truncated": 0,
+  "note": "Auxiliary unconstrained detection anchor, separate from the primary premise-conditioned comparisons."
+}

@@ -1,0 +1,137 @@
+{
+  "session_start_utc": "2026-10-04T03:56:16.975924+00:00",
+  "summary_time_utc": "2026-10-04T06:59:31.548016+00:00",
+  "elapsed_hours": 3.0540478033333334,
+  "main_writer_unique_generations_including_superseded": 1240,
+  "main_writer_sum_recorded_batch_seconds": 5646.630469799042,
+  "artifact_counts": [
+    {
+      "artifact": "outlines",
+      "rows": 150,
+      "output_tokens": 30916,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 7
+    },
+    {
+      "artifact": "outlines_length_pilot",
+      "rows": 48,
+      "output_tokens": 8572,
+      "truncated": 43,
+      "distinct_recorded_batch_seeds": 2
+    },
+    {
+      "artifact": "stories",
+      "rows": 1080,
+      "output_tokens": 701070,
+      "truncated": 44,
+      "distinct_recorded_batch_seeds": 39
+    },
+    {
+      "artifact": "stories_before_length_fix",
+      "rows": 608,
+      "output_tokens": 396277,
+      "truncated": 26,
+      "distinct_recorded_batch_seeds": 19
+    },
+    {
+      "artifact": "anchor_stories",
+      "rows": 120,
+      "output_tokens": 86586,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 4
+    },
+    {
+      "artifact": "judgments",
+      "rows": 1080,
+      "output_tokens": 1080,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 68
+    },
+    {
+      "artifact": "anchor_gemma_judgments",
+      "rows": 120,
+      "output_tokens": 120,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 8
+    },
+    {
+      "artifact": "anchor_qwen_judgments",
+      "rows": 120,
+      "output_tokens": 120,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 8
+    },
+    {
+      "artifact": "plot_forecasts",
+      "rows": 840,
+      "output_tokens": 900,
+      "truncated": 8,
+      "distinct_recorded_batch_seeds": 35
+    },
+    {
+      "artifact": "target_blind_judgments",
+      "rows": 180,
+      "output_tokens": 180,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 8
+    },
+    {
+      "artifact": "quality",
+      "rows": 540,
+      "output_tokens": 540,
+      "truncated": 0,
+      "distinct_recorded_batch_seeds": 23
+    }
+  ],
+  "stages": [
+    {
+      "stage": "positive_anchor",
+      "returncode": 0,
+      "seconds": 217.06885719299316
+    },
+    {
+      "stage": "independent_judge",
+      "returncode": 0,
+      "seconds": 599.7147936820984
+    },
+    {
+      "stage": "behavior_analysis",
+      "returncode": 0,
+      "seconds": 3.948019504547119
+    },
+    {
+      "stage": "direction_calibration",
+      "returncode": 0,
+      "seconds": 2.55745792388916
+    },
+    {
+      "stage": "diagnostics",
+      "returncode": 0,
+      "seconds": 499.1398458480835
+    },
+    {
+      "stage": "mechanism_extract",
+      "returncode": 0,
+      "seconds": 320.7219007015228
+    },
+    {
+      "stage": "mechanism_analyze",
+      "returncode": 0,
+      "seconds": 47.01692295074463
+    },
+    {
+      "stage": "free_states",
+      "returncode": 0,
+      "seconds": 133.70409870147705
+    },
+    {
+      "stage": "interventions",
+      "returncode": 0,
+      "seconds": 6.678808212280273
+    }
+  ],
+  "successful_paid_api_inference_calls": 0,
+  "api_inference_cost_usd": 0,
+  "local_gpu_cost_usd": null,
+  "note": "Local hardware cost/energy not metered. Timing is actual recorded wall time, no CPU-vs-GPU training comparison: no training of model weights was performed. Archived story outputs overlap primary data; do not sum their rows as independent observations."
+}

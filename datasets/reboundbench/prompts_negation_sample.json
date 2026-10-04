@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0",
+    "prompt_type": "negative",
+    "topic": "church",
+    "forbidden_concept": "car",
+    "proxy_concept": "car_proxy",
+    "prompt_text": "Chronicle a church while leaving out car.",
+    "is_single_token": "TRUE"
+  },
+  {
+    "id": "1",
+    "prompt_type": "negative",
+    "topic": "pavilion",
+    "forbidden_concept": "table",
+    "proxy_concept": "table_proxy",
+    "prompt_text": "Give an account of a pavilion while avoiding table.",
+    "is_single_token": "TRUE"
+  },
+  {
+    "id": "2",
+    "prompt_type": "negative",
+    "topic": "pond",
+    "forbidden_concept": "rain",
+    "proxy_concept": "rain_proxy",
+    "prompt_text": "Render a pond but do not include rain.",
+    "is_single_token": "TRUE"
+  }
+]

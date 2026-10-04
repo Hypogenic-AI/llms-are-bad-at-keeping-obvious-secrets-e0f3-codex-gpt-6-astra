@@ -1,0 +1,33 @@
+{
+  "summaries": [
+    {
+      "condition": "baseline",
+      "n": 90,
+      "premise_exposure": 0,
+      "outline_exposure": 1,
+      "no_secret_prompt_exposure": 0
+    },
+    {
+      "condition": "context",
+      "n": 90,
+      "premise_exposure": 0,
+      "outline_exposure": 1,
+      "no_secret_prompt_exposure": 1
+    },
+    {
+      "condition": "decoy",
+      "n": 90,
+      "premise_exposure": 0,
+      "outline_exposure": 1,
+      "no_secret_prompt_exposure": 0
+    },
+    {
+      "condition": "outline",
+      "n": 90,
+      "premise_exposure": 0,
+      "outline_exposure": 1,
+      "no_secret_prompt_exposure": 1
+    }
+  ],
+  "note": "Exact whole-word audit only; semantic association is not excluded. Primary sample remains unchanged."
+}

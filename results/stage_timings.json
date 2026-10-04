@@ -1,0 +1,47 @@
+[
+  {
+    "stage": "positive_anchor",
+    "returncode": 0,
+    "seconds": 217.06885719299316
+  },
+  {
+    "stage": "independent_judge",
+    "returncode": 0,
+    "seconds": 599.7147936820984
+  },
+  {
+    "stage": "behavior_analysis",
+    "returncode": 0,
+    "seconds": 3.948019504547119
+  },
+  {
+    "stage": "direction_calibration",
+    "returncode": 0,
+    "seconds": 2.55745792388916
+  },
+  {
+    "stage": "diagnostics",
+    "returncode": 0,
+    "seconds": 499.1398458480835
+  },
+  {
+    "stage": "mechanism_extract",
+    "returncode": 0,
+    "seconds": 320.7219007015228
+  },
+  {
+    "stage": "mechanism_analyze",
+    "returncode": 0,
+    "seconds": 47.01692295074463
+  },
+  {
+    "stage": "free_states",
+    "returncode": 0,
+    "seconds": 133.70409870147705
+  },
+  {
+    "stage": "interventions",
+    "returncode": 0,
+    "seconds": 6.678808212280273
+  }
+]

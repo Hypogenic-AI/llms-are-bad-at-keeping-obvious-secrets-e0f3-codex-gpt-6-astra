@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "baseline",
+    "accuracy": 0.06666666666666667,
+    "n_test": 90,
+    "features": "within-context centered prompt token count only"
+  },
+  {
+    "condition": "outline",
+    "accuracy": 0.06666666666666667,
+    "n_test": 90,
+    "features": "within-context centered prompt token count only"
+  },
+  {
+    "condition": "context",
+    "accuracy": 0.06666666666666667,
+    "n_test": 90,
+    "features": "within-context centered prompt token count only"
+  }
+]

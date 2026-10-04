@@ -1,0 +1,261 @@
+{
+  "timestamp": "2026-10-04T04:00:50.782220+00:00",
+  "status": "PASS",
+  "python": "3.12.8 (main, Dec 19 2024, 14:33:20) [Clang 18.1.8 ]",
+  "environment": "/workspaces/llms-are-bad-at-keeping-obvious-secrets-e0f3-codex-gpt-6-astra/.venv",
+  "papers": [
+    {
+      "id": "1805.04833",
+      "pages": 11,
+      "chunks": 4,
+      "sha256": "match"
+    },
+    {
+      "id": "1811.05701",
+      "pages": 11,
+      "chunks": 4,
+      "sha256": "match"
+    },
+    {
+      "id": "2210.06774",
+      "pages": 86,
+      "chunks": 29,
+      "sha256": "match"
+    },
+    {
+      "id": "2212.10077",
+      "pages": 86,
+      "chunks": 29,
+      "sha256": "match"
+    },
+    {
+      "id": "2310.17884",
+      "pages": 24,
+      "chunks": 8,
+      "sha256": "match"
+    },
+    {
+      "id": "2402.17119",
+      "pages": 17,
+      "chunks": 6,
+      "sha256": "match"
+    },
+    {
+      "id": "2404.00859",
+      "pages": 24,
+      "chunks": 8,
+      "sha256": "match"
+    },
+    {
+      "id": "2408.06518",
+      "pages": 14,
+      "chunks": 5,
+      "sha256": "match"
+    },
+    {
+      "id": "2501.19398",
+      "pages": 20,
+      "chunks": 7,
+      "sha256": "match"
+    },
+    {
+      "id": "2502.06258",
+      "pages": 20,
+      "chunks": 7,
+      "sha256": "match"
+    },
+    {
+      "id": "2505.14352",
+      "pages": 19,
+      "chunks": 7,
+      "sha256": "match"
+    },
+    {
+      "id": "2505.16505",
+      "pages": 15,
+      "chunks": 5,
+      "sha256": "match"
+    },
+    {
+      "id": "2510.01070",
+      "pages": 55,
+      "chunks": 19,
+      "sha256": "match"
+    },
+    {
+      "id": "2511.00180",
+      "pages": 24,
+      "chunks": 8,
+      "sha256": "match"
+    },
+    {
+      "id": "2511.12381",
+      "pages": 12,
+      "chunks": 4,
+      "sha256": "match"
+    },
+    {
+      "id": "2601.06973",
+      "pages": 36,
+      "chunks": 12,
+      "sha256": "match"
+    },
+    {
+      "id": "2603.25187",
+      "pages": 17,
+      "chunks": 6,
+      "sha256": "match"
+    },
+    {
+      "id": "2604.00209",
+      "pages": 18,
+      "chunks": 6,
+      "sha256": "match"
+    },
+    {
+      "id": "2604.09854",
+      "pages": 29,
+      "chunks": 10,
+      "sha256": "match"
+    },
+    {
+      "id": "2604.12493",
+      "pages": 35,
+      "chunks": 12,
+      "sha256": "match"
+    },
+    {
+      "id": "2605.10794",
+      "pages": 18,
+      "chunks": 6,
+      "sha256": "match"
+    },
+    {
+      "id": "2605.28639",
+      "pages": 13,
+      "chunks": 5,
+      "sha256": "match"
+    },
+    {
+      "id": "2607.23379",
+      "pages": 30,
+      "chunks": 10,
+      "sha256": "match"
+    }
+  ],
+  "deep_reading_coverage": [
+    {
+      "id": "2310.17884",
+      "chunks_noted": 8,
+      "expected": 8
+    },
+    {
+      "id": "2402.17119",
+      "chunks_noted": 6,
+      "expected": 6
+    },
+    {
+      "id": "2404.00859",
+      "chunks_noted": 8,
+      "expected": 8
+    },
+    {
+      "id": "2502.06258",
+      "chunks_noted": 7,
+      "expected": 7
+    },
+    {
+      "id": "2505.14352",
+      "chunks_noted": 7,
+      "expected": 7
+    },
+    {
+      "id": "2505.16505",
+      "chunks_noted": 5,
+      "expected": 5
+    },
+    {
+      "id": "2510.01070",
+      "chunks_noted": 19,
+      "expected": 19
+    },
+    {
+      "id": "2511.12381",
+      "chunks_noted": 4,
+      "expected": 4
+    },
+    {
+      "id": "2601.06973",
+      "chunks_noted": 12,
+      "expected": 12
+    },
+    {
+      "id": "2603.25187",
+      "chunks_noted": 6,
+      "expected": 6
+    },
+    {
+      "id": "2604.00209",
+      "chunks_noted": 6,
+      "expected": 6
+    },
+    {
+      "id": "2605.10794",
+      "chunks_noted": 6,
+      "expected": 6
+    },
+    {
+      "id": "2605.28639",
+      "chunks_noted": 5,
+      "expected": 5
+    }
+  ],
+  "dataset_files": 5,
+  "source_datasets": 4,
+  "raw_dataset_bytes": 32535349,
+  "all_data_hashes_match": true,
+  "all_raw_data_git_ignored": true,
+  "samples_under_100KB_and_visible_to_git": true,
+  "repositories": [
+    {
+      "path": "code/eliciting-secret-knowledge",
+      "commit": "45aae57930a7d6ef5503a9b9b23e0b23fd8068ca",
+      "working_tree": "clean"
+    },
+    {
+      "path": "code/representational-suppression",
+      "commit": "1b44dfc61c6e7c3acb21874a940670238bf44d54",
+      "working_tree": "clean"
+    },
+    {
+      "path": "code/Concise-SAE",
+      "commit": "ac735478607ebecf3b1ebc4c34c57279c12956d9",
+      "working_tree": "clean"
+    },
+    {
+      "path": "code/CI-Steering",
+      "commit": "5c5edc3261f9cdf11319b47107894e08b2b40c60",
+      "working_tree": "clean"
+    },
+    {
+      "path": "code/doc-story-generation",
+      "commit": "9d727cdbae40c72169ab03b729bff4419a113dac",
+      "working_tree": "clean"
+    }
+  ],
+  "required_documents_present": [
+    "STATE.md",
+    "planning.md",
+    "literature_review.md",
+    "resources.md",
+    "papers/README.md",
+    "datasets/.gitignore",
+    "datasets/README.md",
+    "code/README.md",
+    "pyproject.toml",
+    "uv.lock",
+    "notes/reading_log.md"
+  ],
+  "markdown_local_links": "pass",
+  "scope": "Resource integrity and documentation only; no model experiments or upstream runtime tests"
+}

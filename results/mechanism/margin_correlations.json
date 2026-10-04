@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "baseline",
+    "n": 66,
+    "spearman_r": 0.276527175861012,
+    "p_unadjusted": 0.02460058604453418,
+    "within_secret_r": 0.3509031479090444,
+    "within_secret_permutation_p": 0.005198960207958408,
+    "within_secret_p_holm": 0.015596880623875225
+  },
+  {
+    "condition": "context",
+    "n": 66,
+    "spearman_r": 0.13302596599729294,
+    "p_unadjusted": 0.28696628642089944,
+    "within_secret_r": 0.22245063702481555,
+    "within_secret_permutation_p": 0.12117576484703059,
+    "within_secret_p_holm": 0.1267746450709858
+  },
+  {
+    "condition": "outline",
+    "n": 66,
+    "spearman_r": -0.14593852930687354,
+    "p_unadjusted": 0.24231111900543098,
+    "within_secret_r": -0.196995038368703,
+    "within_secret_permutation_p": 0.0633873225354929,
+    "within_secret_p_holm": 0.1267746450709858
+  }
+]

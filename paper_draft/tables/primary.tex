@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llrl@{}}
+\toprule
+Task & \textsc{Condition} & Pairs & Detection accuracy (\%) [95\% CI] \\
+\midrule
+Word & Baseline & 90 & 60.6 [56.1, 65.0] \\
+Word & Outline & 90 & \textbf{54.4} [51.7, 57.8] \\
+Word & Context & 90 & 63.9 [58.9, 68.9] \\
+Word & Decoy & 90 & \textbf{54.4} [51.1, 57.8] \\
+Plot & Baseline & 60 & 49.2 [47.5, 50.0] \\
+Plot & Outline & 60 & 49.2 [47.5, 50.0] \\
+Plot & Context & 60 & 49.2 [47.5, 50.0] \\
+\bottomrule
+\end{tabular}
+\caption{Primary detection with both orders averaged within each pair. Intervals resample word premises or plot families. Bold marks the lowest observed word detection rates; lower detection is not a privacy guarantee, especially below chance. Plot ties are left unranked because the judge is insensitive.}
+\label{tab:primary}
+\end{table}

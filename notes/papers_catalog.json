@@ -1,0 +1,422 @@
+[
+  {
+    "id": "1805.04833",
+    "title": "Hierarchical Neural Story Generation",
+    "authors": [
+      "Fan, Angela",
+      "Lewis, Mike",
+      "Dauphin, Yann"
+    ],
+    "date": [
+      "2018/05/13"
+    ],
+    "file": "papers/1805.04833.pdf",
+    "pages": 11,
+    "sha256": "1fd434bb70a2b9149bc79e6ecfe9a87e087a1a0e50c02082a1c18856eabba2f0",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "1811.05701",
+    "title": "Plan-And-Write: Towards Better Automatic Storytelling",
+    "authors": [
+      "Yao, Lili",
+      "Peng, Nanyun",
+      "Weischedel, Ralph",
+      "Knight, Kevin",
+      "Zhao, Dongyan",
+      "Yan, Rui"
+    ],
+    "date": [
+      "2018/11/14"
+    ],
+    "file": "papers/1811.05701.pdf",
+    "pages": 11,
+    "sha256": "4f3c39a3164556580163d5f9b35365adefe1209bcb160f853ee447fd5d67d481",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2210.06774",
+    "title": "Re3: Generating Longer Stories With Recursive Reprompting and Revision",
+    "authors": [
+      "Yang, Kevin",
+      "Tian, Yuandong",
+      "Peng, Nanyun",
+      "Klein, Dan"
+    ],
+    "date": [
+      "2022/10/13"
+    ],
+    "file": "papers/2210.06774.pdf",
+    "pages": 86,
+    "sha256": "dd8ce0000a217f31ae55e107f66fab4608a1972319c9d7999609a9fdc1ccdcb4",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2212.10077",
+    "title": "DOC: Improving Long Story Coherence With Detailed Outline Control",
+    "authors": [
+      "Yang, Kevin",
+      "Klein, Dan",
+      "Peng, Nanyun",
+      "Tian, Yuandong"
+    ],
+    "date": [
+      "2022/12/20"
+    ],
+    "file": "papers/2212.10077.pdf",
+    "pages": 86,
+    "sha256": "6cf384b0f2d886e4a463f92062f0ef2e13de2db7edaac605805236df0ba972dc",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2310.17884",
+    "title": "Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory",
+    "authors": [
+      "Mireshghallah, Niloofar",
+      "Kim, Hyunwoo",
+      "Zhou, Xuhui",
+      "Tsvetkov, Yulia",
+      "Sap, Maarten",
+      "Shokri, Reza",
+      "Choi, Yejin"
+    ],
+    "date": [
+      "2023/10/27"
+    ],
+    "file": "papers/2310.17884.pdf",
+    "pages": 24,
+    "sha256": "ab7666ae419b59dcb70482ce460fa7e371e926533105b6fe24576be6f5a08627",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2402.17119",
+    "title": "Creating Suspenseful Stories: Iterative Planning with Large Language Models",
+    "authors": [
+      "Xie, Kaige",
+      "Riedl, Mark"
+    ],
+    "date": [
+      "2024/02/27"
+    ],
+    "file": "papers/2402.17119.pdf",
+    "pages": 17,
+    "sha256": "790bb83727c0bacd80261055ec3edc941ffe858ea5cd176a2fe7e0be8f85e381",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2404.00859",
+    "title": "Do language models plan ahead for future tokens?",
+    "authors": [
+      "Wu, Wilson",
+      "Morris, John X.",
+      "Levine, Lionel"
+    ],
+    "date": [
+      "2024/04/01"
+    ],
+    "file": "papers/2404.00859.pdf",
+    "pages": 24,
+    "sha256": "37c4870836d638ebebda50c80b4f1341bb0f205d5a4d2f00943fbbe181473bf2",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2408.06518",
+    "title": "Does Liking Yellow Imply Driving a School Bus? Semantic Leakage in Language Models",
+    "authors": [
+      "Gonen, Hila",
+      "Blevins, Terra",
+      "Liu, Alisa",
+      "Zettlemoyer, Luke",
+      "Smith, Noah A."
+    ],
+    "date": [
+      "2024/08/12"
+    ],
+    "file": "papers/2408.06518.pdf",
+    "pages": 14,
+    "sha256": "f5faf9b45f0f7442ad3f523f42aa0fcd54e157c6690f0a3998b188fa0c67f5d8",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2501.19398",
+    "title": "Do LLMs Strategically Reveal, Conceal, and Infer Information? A Theoretical and Empirical Analysis in The Chameleon Game",
+    "authors": [
+      "Karabag, Mustafa O.",
+      "Sobotka, Jan",
+      "Topcu, Ufuk"
+    ],
+    "date": [
+      "2025/01/31"
+    ],
+    "file": "papers/2501.19398.pdf",
+    "pages": 20,
+    "sha256": "444c19981e04d37a50b974cc058032883f9e047ae7217052a9c3f4a77b96fb92",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2502.06258",
+    "title": "Emergent Response Planning in LLMs",
+    "authors": [
+      "Dong, Zhichen",
+      "Zhou, Zhanhui",
+      "Liu, Zhixuan",
+      "Yang, Chao",
+      "Lu, Chaochao"
+    ],
+    "date": [
+      "2025/02/10"
+    ],
+    "file": "papers/2502.06258.pdf",
+    "pages": 20,
+    "sha256": "c5858d430d485f876c91c3822f41d91d73416cad052c1c96d30caae419d2ce2b",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2505.14352",
+    "title": "Towards eliciting latent knowledge from LLMs with mechanistic interpretability",
+    "authors": [
+      "Cywi\u0144ski, Bartosz",
+      "Ryd, Emil",
+      "Rajamanoharan, Senthooran",
+      "Nanda, Neel"
+    ],
+    "date": [
+      "2025/05/20"
+    ],
+    "file": "papers/2505.14352.pdf",
+    "pages": 19,
+    "sha256": "1eaff0250644edb23d627e5f4d2ed4ca192c0cea4c13622d6c867f914f01a1be",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2505.16505",
+    "title": "Sparse Activation Editing for Reliable Instruction Following in Narratives",
+    "authors": [
+      "Zhao, Runcong",
+      "Cao, Chengyu",
+      "Zhu, Qinglin",
+      "Lv, Xiucheng",
+      "Shao, Shun",
+      "Gui, Lin",
+      "Xu, Ruifeng",
+      "He, Yulan"
+    ],
+    "date": [
+      "2025/05/22"
+    ],
+    "file": "papers/2505.16505.pdf",
+    "pages": 15,
+    "sha256": "a5e89f295993a0ac3b13e81ac468408d0d0eb251ff29d7a0c2c30cedc06106e0",
+    "reading": "all chunks",
+    "user_supplied": false
+  },
+  {
+    "id": "2510.01070",
+    "title": "Eliciting Secret Knowledge from Language Models",
+    "authors": [
+      "Cywi\u0144ski, Bartosz",
+      "Ryd, Emil",
+      "Wang, Rowan",
+      "Rajamanoharan, Senthooran",
+      "Nanda, Neel",
+      "Conmy, Arthur",
+      "Marks, Samuel"
+    ],
+    "date": [
+      "2025/10/01"
+    ],
+    "file": "papers/2510.01070.pdf",
+    "pages": 55,
+    "sha256": "ed857d0212c74c35b32cbe0d8822fb73e4e5060fc0250a2ea9d0c22723e16aaa",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2511.00180",
+    "title": "ParaScopes: What do Language Models Activations Encode About Future Text?",
+    "authors": [
+      "Pochinkov, Nicky",
+      "Volkova, Yulia",
+      "Vasileva, Anna",
+      "Chereddy, Sai V R"
+    ],
+    "date": [
+      "2025/10/31"
+    ],
+    "file": "papers/2511.00180.pdf",
+    "pages": 24,
+    "sha256": "e01a58239e9de611dba7d6b6f9da4ae6a5cf12b0fe3c82c302324f923024ac99",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2511.12381",
+    "title": "Don't Think of the White Bear: Ironic Negation in Transformer Models Under Cognitive Load",
+    "authors": [
+      "Mann, Logan",
+      "Saxena, Nayan",
+      "Tandon, Sarah",
+      "Sun, Chenhao",
+      "Toteja, Savar",
+      "Zhu, Kevin"
+    ],
+    "date": [
+      "2025/11/15"
+    ],
+    "file": "papers/2511.12381.pdf",
+    "pages": 12,
+    "sha256": "627d95da716b3b0d0712cdb63f2b72e22ede50bfb9fa53722118989252060ff5",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2601.06973",
+    "title": "LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents",
+    "authors": [
+      "Baldelli, Davide",
+      "Parviz, Ali",
+      "Zouaq, Amal",
+      "Chandar, Sarath"
+    ],
+    "date": [
+      "2026/01/11"
+    ],
+    "file": "papers/2601.06973.pdf",
+    "pages": 36,
+    "sha256": "8c5d440b8987a08a2478f1274a88de759ee67765824877e849f895c797d066a5",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2603.25187",
+    "title": "Probing the Lack of Stable Internal Beliefs in LLMs",
+    "authors": [
+      "Luo, Yifan",
+      "Xu, Kangping",
+      "Lu, Yanzhen",
+      "Yuan, Yang",
+      "Yao, Andrew Chi-Chih"
+    ],
+    "date": [
+      "2026/03/26"
+    ],
+    "file": "papers/2603.25187.pdf",
+    "pages": 17,
+    "sha256": "57c818e2026616b0eea22eafe4821a364131bc8f29c16b39a0358dc95e04b6d3",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2604.00209",
+    "title": "Do LLMs Know What Is Private Internally? Probing and Steering Contextual Privacy Norms in Large Language Model Representations",
+    "authors": [
+      "Wang, Haoran",
+      "Xiong, Li",
+      "Shu, Kai"
+    ],
+    "date": [
+      "2026/03/31"
+    ],
+    "file": "papers/2604.00209.pdf",
+    "pages": 18,
+    "sha256": "98c43cf4f8212d08ac1afac5fe6db7f7f4626dc972b200da4362fbaf7633093f",
+    "reading": "all chunks",
+    "user_supplied": false
+  },
+  {
+    "id": "2604.09854",
+    "title": "Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling",
+    "authors": [
+      "Sui, Peiqi",
+      "Zhu, Yutong",
+      "Cheng, Tianyi",
+      "West, Peter",
+      "So, Richard Jean",
+      "Long, Hoyt",
+      "Holtzman, Ari"
+    ],
+    "date": [
+      "2026/04/10"
+    ],
+    "file": "papers/2604.09854.pdf",
+    "pages": 29,
+    "sha256": "062d45fd8b44812bdd5cdc3c223468af1451f0dc2a8d01944923ab77f27e7b07",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2604.12493",
+    "title": "Latent Planning Emerges with Scale",
+    "authors": [
+      "Hanna, Michael",
+      "Ameisen, Emmanuel"
+    ],
+    "date": [
+      "2026/04/14"
+    ],
+    "file": "papers/2604.12493.pdf",
+    "pages": 35,
+    "sha256": "0706e44204902c813cf9a4e9b531fe3ebe677f08e137edddd6bb8d032c43e838",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  },
+  {
+    "id": "2605.10794",
+    "title": "Can You Keep a Secret? Involuntary Information Leakage in Language Model Writing",
+    "authors": [
+      "Holtzman, Ari",
+      "West, Peter"
+    ],
+    "date": [
+      "2026/05/11"
+    ],
+    "file": "papers/2605.10794.pdf",
+    "pages": 18,
+    "sha256": "b094a8664fa69ecb76fa652d26029a02a95f456c3521447cbaf1cc362bfe1d28",
+    "reading": "all chunks",
+    "user_supplied": true
+  },
+  {
+    "id": "2605.28639",
+    "title": "The Attentional White Bear Effect in Transformer Language Models",
+    "authors": [
+      "Ramnauth, Rebecca",
+      "Scassellati, Brian"
+    ],
+    "date": [
+      "2026/05/27"
+    ],
+    "file": "papers/2605.28639.pdf",
+    "pages": 13,
+    "sha256": "0f8e2eb33b6bb2c9983e17a8cbd1fc23d5254d3788039ab62531220368444574",
+    "reading": "all chunks",
+    "user_supplied": false
+  },
+  {
+    "id": "2607.23379",
+    "title": "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles",
+    "authors": [
+      "Bersia, Tobias",
+      "Gaintseva, Tatiana"
+    ],
+    "date": [
+      "2026/07/25"
+    ],
+    "file": "papers/2607.23379.pdf",
+    "pages": 30,
+    "sha256": "7f3852a466b6f8e0ec3a716e2bf1c81841431b106de681328a0987312e805444",
+    "reading": "abstract and selected methods; not full text",
+    "user_supplied": false
+  }
+]

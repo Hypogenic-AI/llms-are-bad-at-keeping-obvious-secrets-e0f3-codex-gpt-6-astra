@@ -1,0 +1,57 @@
+[
+  {
+    "repo": "cywinski/eliciting-secret-knowledge",
+    "url": "https://github.com/cywinski/eliciting-secret-knowledge",
+    "path": "code/eliciting-secret-knowledge",
+    "commit": "45aae57930a7d6ef5503a9b9b23e0b23fd8068ca",
+    "sparse_exclusions": [
+      "results*",
+      "outputs",
+      "figures"
+    ]
+  },
+  {
+    "repo": "rramnauth2220/representational-suppression",
+    "url": "https://github.com/rramnauth2220/representational-suppression",
+    "path": "code/representational-suppression",
+    "commit": "1b44dfc61c6e7c3acb21874a940670238bf44d54",
+    "sparse_exclusions": [
+      "results*",
+      "outputs",
+      "figures"
+    ]
+  },
+  {
+    "repo": "Chacioc/Concise-SAE",
+    "url": "https://github.com/Chacioc/Concise-SAE",
+    "path": "code/Concise-SAE",
+    "commit": "ac735478607ebecf3b1ebc4c34c57279c12956d9",
+    "sparse_exclusions": [
+      "results*",
+      "outputs",
+      "figures"
+    ]
+  },
+  {
+    "repo": "wang2226/CI-Steering",
+    "url": "https://github.com/wang2226/CI-Steering",
+    "path": "code/CI-Steering",
+    "commit": "5c5edc3261f9cdf11319b47107894e08b2b40c60",
+    "sparse_exclusions": [
+      "results*",
+      "outputs",
+      "figures"
+    ]
+  },
+  {
+    "repo": "yangkevin2/doc-story-generation",
+    "url": "https://github.com/yangkevin2/doc-story-generation",
+    "path": "code/doc-story-generation",
+    "commit": "9d727cdbae40c72169ab03b729bff4419a113dac",
+    "sparse_exclusions": [
+      "results*",
+      "outputs",
+      "figures"
+    ]
+  }
+]

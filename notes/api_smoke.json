@@ -1,0 +1,22 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a single sentence about a baker opening a shop."
+      }
+    ],
+    "max_tokens": 100,
+    "temperature": 0.8,
+    "seed": 42
+  },
+  "status": 403,
+  "response": {
+    "error": {
+      "message": "Key limit exceeded (daily limit). Account-management URL omitted.",
+      "code": 403
+    }
+  },
+  "seconds": 0.11187314987182617
+}

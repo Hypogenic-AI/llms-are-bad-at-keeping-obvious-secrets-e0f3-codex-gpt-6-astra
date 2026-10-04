@@ -1,0 +1,16 @@
+\section{Discussion}
+\label{sec:discussion}
+\para{What do outlines change?}
+The strongest supported result is fewer exact-word violations under outlines relative to both baseline and equally long irrelevant context. Higher outline uptake is consistent with content constraints reducing opportunities to insert the forbidden word. Irrelevant context does not reduce disclosure under these prompts, arguing against a token-count-only dilution account here. However, the conditions also differ in relevance, instruction semantics, and output length. We cannot attribute the effect specifically to separating planning from prose generation.
+
+\para{Why distinguish disclosure from hints?}
+The distinction changes the scientific conclusion. The primary outline--context detection result could suggest reduced involuntary leakage if considered alone. Exact-word checks show that much of the measurable signal consists of direct instruction failures, whereas the motivating prior work reports nonliteral leakage without exact mentions. Near-chance detection after excluding literal cases does not establish that subtle information is absent: the judge has strong position bias, the anchor is weak, and the secondary detector does not confirm the primary adjusted contrast. Below-chance guessing may also encode systematic avoidance. None of these scores supplies a privacy guarantee.
+
+\para{What do the probes establish?}
+Counterfactual centering recovers information that a raw cross-context probe misses, but only for 15 identities in controlled residual differences. It does not establish active planning, private memory, or causal influence. The prompt remains available, centering requires counterfactual test states, and replays approximate online states. The failed gate prevents a causal interpretation of unvalidated edits.
+
+\para{Limits of scope and precision.}
+We evaluate one historical writer and one primary judge, without human evaluation or model-level multi-seed replication. All Gemma inputs contain duplicated BOS tokens; canonical-format replication is necessary before generalizing to ordinary Gemma behavior. Public premises may overlap pretraining. Only 12 unvalidated plot families and six residual test contexts limit generalization. Secret-blind plans do not test plans that know and organize an eventual revelation. Input matching leaves output length, attention, task effort, and semantic content uncontrolled; incidental assigned-word exposure remains in one outline and one context reference. Bootstrap intervals condition on the sampled data and evaluator and omit model-version and evaluator-validity uncertainty. A 90-unit pilot need not resolve a 15-point effect reliably after clustering and multiplicity; null results are not equivalence tests.
+
+\para{Broader implications.}
+Outline assistance may improve lexical compliance in creative writing, but our tasks do not evaluate real sensitive personal information or establish a practical utility--privacy tradeoff. Readable activations also need not imply reader-accessible information. Confidentiality evaluation requires separate measures of direct disclosure, inferential leakage, and useful output.

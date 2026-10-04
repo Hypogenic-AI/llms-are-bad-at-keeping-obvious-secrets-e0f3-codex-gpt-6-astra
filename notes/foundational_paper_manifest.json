@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2604.12493",
+    "title": [
+      "Latent Planning Emerges with Scale"
+    ],
+    "author": [
+      "Hanna, Michael",
+      "Ameisen, Emmanuel"
+    ],
+    "date": [
+      "2026/04/14"
+    ],
+    "sha256": "0706e44204902c813cf9a4e9b531fe3ebe677f08e137edddd6bb8d032c43e838"
+  },
+  {
+    "id": "2607.23379",
+    "title": [
+      "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles"
+    ],
+    "author": [
+      "Bersia, Tobias",
+      "Gaintseva, Tatiana"
+    ],
+    "date": [
+      "2026/07/25"
+    ],
+    "sha256": "7f3852a466b6f8e0ec3a716e2bf1c81841431b106de681328a0987312e805444"
+  },
+  {
+    "id": "2408.06518",
+    "title": [
+      "Does Liking Yellow Imply Driving a School Bus? Semantic Leakage in Language Models"
+    ],
+    "author": [
+      "Gonen, Hila",
+      "Blevins, Terra",
+      "Liu, Alisa",
+      "Zettlemoyer, Luke",
+      "Smith, Noah A."
+    ],
+    "date": [
+      "2024/08/12"
+    ],
+    "sha256": "f5faf9b45f0f7442ad3f523f42aa0fcd54e157c6690f0a3998b188fa0c67f5d8"
+  },
+  {
+    "id": "1805.04833",
+    "title": [
+      "Hierarchical Neural Story Generation"
+    ],
+    "author": [
+      "Fan, Angela",
+      "Lewis, Mike",
+      "Dauphin, Yann"
+    ],
+    "date": [
+      "2018/05/13"
+    ],
+    "sha256": "1fd434bb70a2b9149bc79e6ecfe9a87e087a1a0e50c02082a1c18856eabba2f0"
+  }
+]

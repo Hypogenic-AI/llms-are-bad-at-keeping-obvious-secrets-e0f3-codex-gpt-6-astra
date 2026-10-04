@@ -1,0 +1,183 @@
+{
+  "outline_overlap_means": [
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "secret_present": false,
+      "outline_cosine": 0.11938813914710776
+    },
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "secret_present": true,
+      "outline_cosine": 0.1262482346680119
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "secret_present": false,
+      "outline_cosine": 0.11841624499783002
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "secret_present": true,
+      "outline_cosine": 0.13148975438117233
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "secret_present": false,
+      "outline_cosine": 0.4176905830721065
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "secret_present": true,
+      "outline_cosine": 0.4211949636142279
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "secret_present": false,
+      "outline_cosine": 0.10131528795225747
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "secret_present": true,
+      "outline_cosine": 0.11274410214797605
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "secret_present": false,
+      "outline_cosine": 0.09872136904924493
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "secret_present": true,
+      "outline_cosine": 0.09749670219645509
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "secret_present": false,
+      "outline_cosine": 0.0913750827174949
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "secret_present": true,
+      "outline_cosine": 0.0936904549252737
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "secret_present": false,
+      "outline_cosine": 0.3817425415419423
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "secret_present": true,
+      "outline_cosine": 0.37870615337743885
+    }
+  ],
+  "excluding_truncated_pairs": [
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "mean": 0.4883720930232558,
+      "low": 0.4625,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 43,
+      "n_clusters": 12,
+      "sd": 0.07624928516630233,
+      "min": 0.0,
+      "max": 0.5
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "mean": 0.49074074074074076,
+      "low": 0.47115384615384615,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 54,
+      "n_clusters": 12,
+      "sd": 0.06804138174397717,
+      "min": 0.0,
+      "max": 0.5
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "mean": 0.4888888888888889,
+      "low": 0.4625,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 45,
+      "n_clusters": 12,
+      "sd": 0.07453559924999299,
+      "min": 0.0,
+      "max": 0.5
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "mean": 0.6055555555555555,
+      "low": 0.5611111111111111,
+      "high": 0.65,
+      "p": 9.99950002499875e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.21845273631267903,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "mean": 0.6388888888888888,
+      "low": 0.5888888888888889,
+      "high": 0.6888888888888889,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.23735170151535614,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "mean": 0.5444444444444444,
+      "low": 0.5111111111111111,
+      "high": 0.5777777777777777,
+      "p": 0.02184890755462227,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.1615313731736062,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "mean": 0.5444444444444444,
+      "low": 0.5166666666666667,
+      "high": 0.5777777777777777,
+      "p": 0.008049597520123995,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.14308880805730728,
+      "min": 0.5,
+      "max": 1.0
+    }
+  ],
+  "excluded_pairs": 38,
+  "note": "Secondary sensitivity only; primary analysis retains every parseable pair, including truncated stories."
+}

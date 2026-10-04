@@ -1,0 +1,10 @@
+# Raw data stay local. Preserve documentation, manifests, tiny examples and fixtures.
+*
+!*/
+!.gitignore
+!README.md
+!manifest.json
+!validation.json
+!**/*_sample.json
+!derived/
+!derived/*.json

@@ -1,0 +1,46 @@
+Paper review completed 4 October 2026
+
+Preparation
+- Read paper-writer/SKILL.md and templates/paper_writing/lab_style_guide.md.
+- Inspected paper_examples/: only README.md exists; no exemplar prose or tables were available.
+- Verified pre-copied math/general/macros templates. Preserved math and general; customized macros.
+- Developed paper/OUTLINE.md before writing sections.
+
+Scientific review
+- Kept exact-word compliance separate from nonliteral leakage and plot forecasting.
+- Included the significant primary outline/context contrast and secondary likelihood nonconfirmation.
+- Included all five primary contrasts; complete secondary likelihood, forecast, and layer-32 tables.
+- Labeled no-literal subsets as post-treatment, centering as post hoc/transductive, and story states as replays.
+- Disclosed duplicated BOS, judge position bias, synthetic plots, six residual test contexts, and output-length differences.
+- Reported the failed fixed gate and offline target-projection failure; claimed no behavioral ablation.
+- Checked the 15-word inventory against datasets/derived/secret_words.json.
+- Used archived primary-source metadata for 17 BibTeX entries; all entries are cited.
+
+Language and structure
+- Active voice, quantitative claims, themed related work, bold paragraph organizers.
+- Introduction covers motivation, gap, method figure, quantitative preview, three contributions, and organization.
+- Abstract is within 150–250 words. Its standard NeurIPS environment supplies the Abstract heading.
+- No content or narrative structure copied from example papers.
+
+Formatting and compilation
+- Exact requested author, article class, [final] neurips_2025, hyperref, plainnat, and command imports.
+- Loaded package dependencies of the supplied macros and enumitem list syntax.
+- Added a fallback track label because this supplied style leaves @trackname undefined with [final] alone.
+  The label identifies a research manuscript and does not assert NeurIPS acceptance.
+- Booktabs tables, meaningful result highlighting, self-contained captions, 80 PDF link annotations.
+- Ran pdflatex, bibtex, pdflatex, pdflatex successfully after final edits.
+- No compilation errors, missing citations, undefined references, overfull boxes, or unresolved rerun warnings.
+- Harmless underfull box messages remain; rendered content is readable and within margins.
+- Reviewed title page, method schematic, primary tables, both data figures, references, and appendix tables visually.
+- Final paper: 8 main-text pages, 1 bibliography page, 6 appendix pages.
+
+Source validation
+- review/validation.json records automated source, citation, copied-figure hash, appendix value, and PDF checks.
+- review/check_paper.py reruns these checks from the repository root with .venv/bin/python.
+- Original experiment data, code, and reports were not changed.
+
+Build from paper_draft/
+  pdflatex -interaction=nonstopmode main.tex
+  bibtex main
+  pdflatex -interaction=nonstopmode main.tex
+  pdflatex -interaction=nonstopmode main.tex

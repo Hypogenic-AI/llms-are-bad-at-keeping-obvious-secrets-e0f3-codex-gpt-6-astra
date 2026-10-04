@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrl@{}}
+\toprule
+\textsc{Condition} & Secret & No secret & Retained & No-literal detection (\%) [95\% CI] \\
+\midrule
+Baseline & 27/90 & 2/90 & 61 & 51.6 [48.4, 54.9] \\
+Outline & 15/90 & 2/90 & 74 & 50.7 [50.0, 52.0] \\
+Context & 31/90 & 1/90 & 59 & 52.5 [49.2, 56.8] \\
+Decoy & \textbf{10/90} & 1/90 & 79 & 50.6 [50.0, 51.9] \\
+\bottomrule
+\end{tabular}
+}
+\caption{Literal word disclosure by secret exposure and primary detection after excluding pairs with a mention in either text. Bold marks the fewest secret-present disclosures. Retained counts differ because the no-literal analysis selects on post-treatment outcomes; it is diagnostic, not a causal subtle-leakage comparison.}
+\label{tab:literal}
+\end{table}

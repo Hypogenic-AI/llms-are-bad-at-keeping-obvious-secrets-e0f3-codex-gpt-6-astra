@@ -1,0 +1,261 @@
+{
+  "plot_forecast_summaries": [
+    {
+      "condition": "baseline",
+      "secret_present": false,
+      "mean": 0.47413793103448276,
+      "low": 0.43103448275862066,
+      "high": 0.5172413793103449,
+      "p": 0.44917754112294384,
+      "n_units": 58,
+      "n_clusters": 12,
+      "sd": 0.3023651474552652,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "baseline",
+      "secret_present": true,
+      "mean": 0.5508474576271186,
+      "low": 0.5,
+      "high": 0.6083333333333333,
+      "p": 0.18344082795860206,
+      "n_units": 59,
+      "n_clusters": 12,
+      "sd": 0.2890966199041017,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": false,
+      "mean": 0.5175438596491229,
+      "low": 0.4649122807017544,
+      "high": 0.5714285714285714,
+      "p": 0.7611119444027798,
+      "n_units": 57,
+      "n_clusters": 12,
+      "sd": 0.2829202354889498,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "context",
+      "secret_present": true,
+      "mean": 0.5775862068965517,
+      "low": 0.5254237288135594,
+      "high": 0.6363636363636364,
+      "p": 0.03134843257837108,
+      "n_units": 58,
+      "n_clusters": 12,
+      "sd": 0.2932235261667124,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": false,
+      "mean": 0.5166666666666667,
+      "low": 0.4583333333333333,
+      "high": 0.575,
+      "p": 0.7961601919904004,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.3314920898750338,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "outline",
+      "secret_present": true,
+      "mean": 0.5083333333333333,
+      "low": 0.4666666666666667,
+      "high": 0.55,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.2836156785287877,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "condition": "premise_only",
+      "secret_present": false,
+      "mean": 0.5083333333333333,
+      "low": 0.5,
+      "high": 0.525,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.14531283222427246,
+      "min": 0.0,
+      "max": 1.0
+    }
+  ],
+  "plot_forecast_contrasts": [
+    {
+      "contrast": "baseline private-minus-no-secret",
+      "mean": 0.08771929824561403,
+      "low": 0.02586206896551724,
+      "high": 0.14814814814814814,
+      "p": 0.0391980400979951,
+      "n_units": 57,
+      "n_clusters": 12,
+      "sd": 0.2693047765202868,
+      "min": -0.5,
+      "max": 0.5,
+      "p_holm": 0.1959902004899755
+    },
+    {
+      "contrast": "context private-minus-no-secret",
+      "mean": 0.06363636363636363,
+      "low": -0.018518518518518517,
+      "high": 0.14285714285714285,
+      "p": 0.24373781310934453,
+      "n_units": 55,
+      "n_clusters": 12,
+      "sd": 0.2895485863173637,
+      "min": -0.5,
+      "max": 1.0,
+      "p_holm": 0.7312134393280336
+    },
+    {
+      "contrast": "outline private-minus-no-secret",
+      "mean": -0.008333333333333333,
+      "low": -0.058333333333333334,
+      "high": 0.05,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.23455089915364918,
+      "min": -0.5,
+      "max": 0.5,
+      "p_holm": 1.0
+    },
+    {
+      "contrast": "forecast difference-in-differences outline - baseline",
+      "mean": -0.08771929824561403,
+      "low": -0.16379310344827586,
+      "high": 0.0,
+      "p": 0.10189490525473727,
+      "n_units": 57,
+      "n_clusters": 12,
+      "sd": 0.3422979985327094,
+      "min": -1.0,
+      "max": 1.0,
+      "p_holm": 0.40757962101894907
+    },
+    {
+      "contrast": "forecast difference-in-differences outline - context",
+      "mean": -0.05454545454545454,
+      "low": -0.1388888888888889,
+      "high": 0.03571428571428571,
+      "p": 0.33598320083995803,
+      "n_units": 55,
+      "n_clusters": 12,
+      "sd": 0.3425493648221631,
+      "min": -1.0,
+      "max": 0.5,
+      "p_holm": 0.7312134393280336
+    }
+  ],
+  "malformed_forecasts": 9,
+  "target_blind": {
+    "accuracy": {
+      "mean": 0.5,
+      "low": 0.5,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.0,
+      "min": 0.5,
+      "max": 0.5
+    },
+    "aware_minus_blind": {
+      "mean": 0.10555555555555556,
+      "low": 0.06111111111111111,
+      "high": 0.15,
+      "p": 9.99950002499875e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.21845273631267903,
+      "min": -0.5,
+      "max": 0.5
+    },
+    "n": 90
+  },
+  "quality": [
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "n": 60,
+      "mean": 4.05,
+      "median": 4.0,
+      "sd": 0.21978417765108274,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "n": 60,
+      "mean": 4.016666666666667,
+      "median": 4.0,
+      "sd": 0.12909944487358055,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "n": 60,
+      "mean": 4.016666666666667,
+      "median": 4.0,
+      "sd": 0.12909944487358055,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "n": 90,
+      "mean": 4.1,
+      "median": 4.0,
+      "sd": 0.3016806854192958,
+      "minimum": 4,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "n": 90,
+      "mean": 4.0777777777777775,
+      "median": 4.0,
+      "sd": 0.30823082616320774,
+      "minimum": 3,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "n": 90,
+      "mean": 4.0777777777777775,
+      "median": 4.0,
+      "sd": 0.3427508604068163,
+      "minimum": 3,
+      "maximum": 5
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "n": 90,
+      "mean": 4.011111111111111,
+      "median": 4.0,
+      "sd": 0.10540925533894598,
+      "minimum": 4,
+      "maximum": 5
+    }
+  ],
+  "malformed_quality": 0
+}

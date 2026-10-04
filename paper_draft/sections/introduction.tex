@@ -1,0 +1,20 @@
+\section{Introduction}
+\label{sec:introduction}
+A story can withhold a word while revealing what it means. For language models, an instruction to keep a secret therefore raises two distinct questions: does the model avoid saying the secret, and does the secret still shape its prose? This distinction matters when an author wants to postpone a revelation without producing an empty or incoherent story. It also offers a controlled setting for studying how instructions change the expression of information already available in context.
+
+Prior work shows that readers can recover secret-related information from model-written stories even when the forbidden word never appears \cite{holtzman2026secret}. One proposed explanation is that flexible writing leaves room for secret-conditioned content choices. External planning offers a concrete test: a supplied outline could constrain those choices. Yet extra context could also change a secret's salience without supplying a useful plan. Existing narrative-planning and suppression studies do not settle this comparison.
+
+\para{Does a useful outline help beyond extra tokens?}
+We compare an outline generated without access to the assigned secret against a plain secrecy instruction and irrelevant context with exactly the same complete input-token count. We add a decoy-word condition for word secrets and extend the comparison to synthetic future plot facts. \Figref{fig:method} summarizes the design. Our hypothesis is that fixing content choices reduces disclosure; the experiment tests the behavioral comparison, rather than identifying planning as its mechanism.
+
+Across 90 word cases, outlines reduce counterbalanced detection accuracy from 63.9\% with irrelevant context to 54.4\% ($-9.4$ percentage points; Holm $p=.0155$). The more consequential finding is that these stories often violate the instruction literally: outlines reduce exact disclosures from 27 to 15 relative to baseline and from 31 to 15 relative to context. A separate likelihood-based analysis does not confirm the primary detection contrast after correction. Plot judgments are strongly position-biased and do not establish a benefit.
+
+We also ask whether a secret remains readable from continuation residuals. The fixed cross-context decoder fails its intervention gate, so we run no behavioral activation ablation. A post hoc diagnostic that centers each context's counterfactual states recovers identity well above chance, but depends on multiple secret-conditioned test states. This separates recoverable information from a validated online removal mechanism. Our contributions are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+\item We compare secret-blind outlines with exactly length-matched irrelevant context across 1,080 stories, with paired secret-present and no-secret controls.
+\item We distinguish reduced literal disclosure from unresolved nonliteral leakage using counterbalanced judgments, exact-word checks, and secondary evaluator diagnostics.
+\item We document a failed cross-context intervention gate and a successful post hoc counterfactual readout, preserving the distinction between representation and behavioral causation.
+\end{itemize}
+\Secref{sec:related} situates these comparisons; \secref{sec:method} describes the protocol; \secref{sec:results} presents the evidence; and \secref{sec:discussion} examines its limits.
+
+\input{figures/method}

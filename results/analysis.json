@@ -1,0 +1,353 @@
+{
+  "summaries": [
+    {
+      "mean": 0.49166666666666664,
+      "low": 0.475,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.06454972243679029,
+      "min": 0.0,
+      "max": 0.5,
+      "task": "plot",
+      "condition": "baseline",
+      "family_cluster_sensitivity": {
+        "mean": 0.49166666666666664,
+        "low": 0.475,
+        "high": 0.5,
+        "p": 1.0,
+        "n_units": 60,
+        "n_clusters": 12,
+        "sd": 0.06454972243679029,
+        "min": 0.0,
+        "max": 0.5
+      }
+    },
+    {
+      "mean": 0.49166666666666664,
+      "low": 0.475,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.06454972243679029,
+      "min": 0.0,
+      "max": 0.5,
+      "task": "plot",
+      "condition": "context",
+      "family_cluster_sensitivity": {
+        "mean": 0.49166666666666664,
+        "low": 0.475,
+        "high": 0.5,
+        "p": 1.0,
+        "n_units": 60,
+        "n_clusters": 12,
+        "sd": 0.06454972243679029,
+        "min": 0.0,
+        "max": 0.5
+      }
+    },
+    {
+      "mean": 0.49166666666666664,
+      "low": 0.475,
+      "high": 0.5,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.06454972243679029,
+      "min": 0.0,
+      "max": 0.5,
+      "task": "plot",
+      "condition": "outline",
+      "family_cluster_sensitivity": {
+        "mean": 0.49166666666666664,
+        "low": 0.475,
+        "high": 0.5,
+        "p": 1.0,
+        "n_units": 60,
+        "n_clusters": 12,
+        "sd": 0.06454972243679029,
+        "min": 0.0,
+        "max": 0.5
+      }
+    },
+    {
+      "mean": 0.6055555555555555,
+      "low": 0.5611111111111111,
+      "high": 0.65,
+      "p": 9.99950002499875e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.21845273631267903,
+      "min": 0.0,
+      "max": 1.0,
+      "task": "word",
+      "condition": "baseline",
+      "family_cluster_sensitivity": {
+        "mean": 0.6055555555555555,
+        "low": 0.5611111111111111,
+        "high": 0.6555555555555556,
+        "p": 0.0010499475026248687,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.21845273631267903,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "mean": 0.6388888888888888,
+      "low": 0.5888888888888889,
+      "high": 0.6888888888888889,
+      "p": 4.999750012499375e-05,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.23735170151535614,
+      "min": 0.0,
+      "max": 1.0,
+      "task": "word",
+      "condition": "context",
+      "family_cluster_sensitivity": {
+        "mean": 0.6388888888888888,
+        "low": 0.5777777777777777,
+        "high": 0.7,
+        "p": 0.0012499375031248437,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.23735170151535614,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "mean": 0.5444444444444444,
+      "low": 0.5111111111111111,
+      "high": 0.5777777777777777,
+      "p": 0.02184890755462227,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.1615313731736062,
+      "min": 0.0,
+      "max": 1.0,
+      "task": "word",
+      "condition": "decoy",
+      "family_cluster_sensitivity": {
+        "mean": 0.5444444444444444,
+        "low": 0.5055555555555555,
+        "high": 0.5888888888888889,
+        "p": 0.1248437578121094,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.1615313731736062,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "mean": 0.5444444444444444,
+      "low": 0.5166666666666667,
+      "high": 0.5777777777777777,
+      "p": 0.008049597520123995,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.14308880805730728,
+      "min": 0.5,
+      "max": 1.0,
+      "task": "word",
+      "condition": "outline",
+      "family_cluster_sensitivity": {
+        "mean": 0.5444444444444444,
+        "low": 0.5166666666666667,
+        "high": 0.5833333333333334,
+        "p": 0.03204839758012099,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.14308880805730728,
+        "min": 0.5,
+        "max": 1.0
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "mean": 0.0,
+      "low": -0.025,
+      "high": 0.025,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.09205746178983233,
+      "min": -0.5,
+      "max": 0.5,
+      "task": "plot",
+      "contrast": "outline - baseline",
+      "paired_dz": 0.0,
+      "family_cluster_sensitivity": {
+        "mean": 0.0,
+        "low": -0.025,
+        "high": 0.025,
+        "p": 1.0,
+        "n_units": 60,
+        "n_clusters": 12,
+        "sd": 0.09205746178983233,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "p_holm": 1.0
+    },
+    {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0,
+      "n_units": 60,
+      "n_clusters": 12,
+      "sd": 0.09205746178983233,
+      "min": -0.5,
+      "max": 0.5,
+      "task": "plot",
+      "contrast": "outline - context",
+      "paired_dz": 0.0,
+      "family_cluster_sensitivity": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "p": 1.0,
+        "n_units": 60,
+        "n_clusters": 12,
+        "sd": 0.09205746178983233,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "p_holm": 1.0
+    },
+    {
+      "mean": -0.06111111111111111,
+      "low": -0.1111111111111111,
+      "high": -0.011111111111111112,
+      "p": 0.03349832508374581,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.24663781590564457,
+      "min": -0.5,
+      "max": 0.5,
+      "task": "word",
+      "contrast": "outline - baseline",
+      "paired_dz": -0.24777672834440842,
+      "family_cluster_sensitivity": {
+        "mean": -0.06111111111111111,
+        "low": -0.1,
+        "high": -0.027777777777777776,
+        "p": 0.007799610019499025,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.24663781590564457,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "p_holm": 0.13399330033498325
+    },
+    {
+      "mean": -0.09444444444444444,
+      "low": -0.15,
+      "high": -0.03888888888888889,
+      "p": 0.0030998450077496125,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.27938982918886346,
+      "min": -0.5,
+      "max": 0.5,
+      "task": "word",
+      "contrast": "outline - context",
+      "paired_dz": -0.33803823395661753,
+      "family_cluster_sensitivity": {
+        "mean": -0.09444444444444444,
+        "low": -0.14444444444444443,
+        "high": -0.03888888888888889,
+        "p": 0.009449527523623819,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.27938982918886346,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "p_holm": 0.015499225038748062
+    },
+    {
+      "mean": -0.06111111111111111,
+      "low": -0.11666666666666667,
+      "high": -0.011111111111111112,
+      "p": 0.04114794260286986,
+      "n_units": 90,
+      "n_clusters": 90,
+      "sd": 0.25777546384944494,
+      "min": -0.5,
+      "max": 0.5,
+      "task": "word",
+      "contrast": "decoy - baseline",
+      "paired_dz": -0.23707109357313916,
+      "family_cluster_sensitivity": {
+        "mean": -0.06111111111111111,
+        "low": -0.1111111111111111,
+        "high": -0.011111111111111112,
+        "p": 0.05054747262636868,
+        "n_units": 90,
+        "n_clusters": 15,
+        "sd": 0.25777546384944494,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "p_holm": 0.13399330033498325
+    }
+  ],
+  "malformed_judgments": 0,
+  "excluded_order_pairs": 0,
+  "order_disagreement": [
+    {
+      "task": "plot",
+      "condition": "baseline",
+      "n_valid_pairs": 60,
+      "order_disagreement_rate": 0.9833333333333333
+    },
+    {
+      "task": "plot",
+      "condition": "context",
+      "n_valid_pairs": 60,
+      "order_disagreement_rate": 0.9833333333333333
+    },
+    {
+      "task": "plot",
+      "condition": "outline",
+      "n_valid_pairs": 60,
+      "order_disagreement_rate": 0.9833333333333333
+    },
+    {
+      "task": "word",
+      "condition": "baseline",
+      "n_valid_pairs": 90,
+      "order_disagreement_rate": 0.7666666666666667
+    },
+    {
+      "task": "word",
+      "condition": "context",
+      "n_valid_pairs": 90,
+      "order_disagreement_rate": 0.7
+    },
+    {
+      "task": "word",
+      "condition": "decoy",
+      "n_valid_pairs": 90,
+      "order_disagreement_rate": 0.8888888888888888
+    },
+    {
+      "task": "word",
+      "condition": "outline",
+      "n_valid_pairs": 90,
+      "order_disagreement_rate": 0.9111111111111111
+    }
+  ],
+  "n_stories": 1080,
+  "n_judgments": 1080,
+  "seed": 20261004
+}

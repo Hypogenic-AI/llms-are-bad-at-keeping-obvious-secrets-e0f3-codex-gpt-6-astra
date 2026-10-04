@@ -1,0 +1,7 @@
+{
+  "initial_completed": 608,
+  "kept": 448,
+  "regenerate_context": 160,
+  "reason": "Full-prompt framing differed by 9-11 tokens; correct total token matching before any judgments.",
+  "new_seed_offset": 1000000
+}

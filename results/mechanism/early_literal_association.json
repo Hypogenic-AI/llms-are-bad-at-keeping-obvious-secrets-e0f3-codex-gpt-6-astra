@@ -1,0 +1,30 @@
+{
+  "secondary_post_hoc": true,
+  "summaries": [
+    {
+      "condition": "baseline",
+      "n": 66,
+      "n_later_literal": 19,
+      "within_secret_spearman_r": -0.010815879816352994,
+      "p": 0.9288142371525695,
+      "p_holm": 1.0
+    },
+    {
+      "condition": "context",
+      "n": 66,
+      "n_later_literal": 22,
+      "within_secret_spearman_r": -0.04435238052906759,
+      "p": 0.7506498700259948,
+      "p_holm": 1.0
+    },
+    {
+      "condition": "outline",
+      "n": 65,
+      "n_later_literal": 11,
+      "within_secret_spearman_r": -0.0793897432231871,
+      "p": 0.5696860627874425,
+      "p_holm": 1.0
+    }
+  ],
+  "caveat": "Secondary early readout\u2013later disclosure association, not causal mediation.\nUse token offsets from the replayed text: any exact mention must start at least\nten tokens after the sampled state. Main states re-encode generated text.\n"
+}

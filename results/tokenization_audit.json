@@ -1,0 +1,62 @@
+{
+  "gemma": {
+    "actual_prefix_ids": [
+      2,
+      2,
+      105,
+      2364,
+      107,
+      6974,
+      496,
+      3925,
+      236761,
+      106
+    ],
+    "direct_prefix_ids": [
+      2,
+      105,
+      2364,
+      107,
+      6974,
+      496,
+      3925,
+      236761,
+      106,
+      107
+    ],
+    "actual_length": 14,
+    "direct_length": 13,
+    "bos_id": 2,
+    "add_bos_token": true
+  },
+  "qwen": {
+    "actual_prefix_ids": [
+      151644,
+      872,
+      198,
+      7985,
+      264,
+      3364,
+      13,
+      151645,
+      198,
+      151644
+    ],
+    "direct_prefix_ids": [
+      151644,
+      872,
+      198,
+      7985,
+      264,
+      3364,
+      13,
+      151645,
+      198,
+      151644
+    ],
+    "actual_length": 16,
+    "direct_length": 16,
+    "bos_id": null,
+    "add_bos_token": null
+  }
+}

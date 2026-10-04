@@ -1,0 +1,2 @@
+name, memory.total [MiB], memory.used [MiB], utilization.gpu [%]
+NVIDIA RTX A6000, 49140 MiB, 48122 MiB, 100 %

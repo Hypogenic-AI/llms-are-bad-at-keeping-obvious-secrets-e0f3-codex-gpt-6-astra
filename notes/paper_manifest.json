@@ -1,0 +1,167 @@
+[
+  {
+    "id": "2605.10794",
+    "title": [
+      "Can You Keep a Secret? Involuntary Information Leakage in Language Model Writing"
+    ],
+    "author": [
+      "Holtzman, Ari",
+      "West, Peter"
+    ],
+    "date": [
+      "2026/05/11"
+    ],
+    "sha256": "b094a8664fa69ecb76fa652d26029a02a95f456c3521447cbaf1cc362bfe1d28"
+  },
+  {
+    "id": "2505.14352",
+    "title": [
+      "Towards eliciting latent knowledge from LLMs with mechanistic interpretability"
+    ],
+    "author": [
+      "Cywi\u0144ski, Bartosz",
+      "Ryd, Emil",
+      "Rajamanoharan, Senthooran",
+      "Nanda, Neel"
+    ],
+    "date": [
+      "2025/05/20"
+    ],
+    "sha256": "1eaff0250644edb23d627e5f4d2ed4ca192c0cea4c13622d6c867f914f01a1be"
+  },
+  {
+    "id": "2510.01070",
+    "title": [
+      "Eliciting Secret Knowledge from Language Models"
+    ],
+    "author": [
+      "Cywi\u0144ski, Bartosz",
+      "Ryd, Emil",
+      "Wang, Rowan",
+      "Rajamanoharan, Senthooran",
+      "Nanda, Neel",
+      "Conmy, Arthur",
+      "Marks, Samuel"
+    ],
+    "date": [
+      "2025/10/01"
+    ],
+    "sha256": "ed857d0212c74c35b32cbe0d8822fb73e4e5060fc0250a2ea9d0c22723e16aaa"
+  },
+  {
+    "id": "2601.06973",
+    "title": [
+      "LLMs Can&#39;t Play Hangman: On the Necessity of a Private Working Memory for Language Agents"
+    ],
+    "author": [
+      "Baldelli, Davide",
+      "Parviz, Ali",
+      "Zouaq, Amal",
+      "Chandar, Sarath"
+    ],
+    "date": [
+      "2026/01/11"
+    ],
+    "sha256": "8c5d440b8987a08a2478f1274a88de759ee67765824877e849f895c797d066a5"
+  },
+  {
+    "id": "2603.25187",
+    "title": [
+      "Probing the Lack of Stable Internal Beliefs in LLMs"
+    ],
+    "author": [
+      "Luo, Yifan",
+      "Xu, Kangping",
+      "Lu, Yanzhen",
+      "Yuan, Yang",
+      "Yao, Andrew Chi-Chih"
+    ],
+    "date": [
+      "2026/03/26"
+    ],
+    "sha256": "57c818e2026616b0eea22eafe4821a364131bc8f29c16b39a0358dc95e04b6d3"
+  },
+  {
+    "id": "2511.12381",
+    "title": [
+      "Don&#39;t Think of the White Bear: Ironic Negation in Transformer Models Under Cognitive Load"
+    ],
+    "author": [
+      "Mann, Logan",
+      "Saxena, Nayan",
+      "Tandon, Sarah",
+      "Sun, Chenhao",
+      "Toteja, Savar",
+      "Zhu, Kevin"
+    ],
+    "date": [
+      "2025/11/15"
+    ],
+    "sha256": "627d95da716b3b0d0712cdb63f2b72e22ede50bfb9fa53722118989252060ff5"
+  },
+  {
+    "id": "2310.17884",
+    "title": [
+      "Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory"
+    ],
+    "author": [
+      "Mireshghallah, Niloofar",
+      "Kim, Hyunwoo",
+      "Zhou, Xuhui",
+      "Tsvetkov, Yulia",
+      "Sap, Maarten",
+      "Shokri, Reza",
+      "Choi, Yejin"
+    ],
+    "date": [
+      "2023/10/27"
+    ],
+    "sha256": "ab7666ae419b59dcb70482ce460fa7e371e926533105b6fe24576be6f5a08627"
+  },
+  {
+    "id": "2502.06258",
+    "title": [
+      "Emergent Response Planning in LLMs"
+    ],
+    "author": [
+      "Dong, Zhichen",
+      "Zhou, Zhanhui",
+      "Liu, Zhixuan",
+      "Yang, Chao",
+      "Lu, Chaochao"
+    ],
+    "date": [
+      "2025/02/10"
+    ],
+    "sha256": "c5858d430d485f876c91c3822f41d91d73416cad052c1c96d30caae419d2ce2b"
+  },
+  {
+    "id": "2404.00859",
+    "title": [
+      "Do language models plan ahead for future tokens?"
+    ],
+    "author": [
+      "Wu, Wilson",
+      "Morris, John X.",
+      "Levine, Lionel"
+    ],
+    "date": [
+      "2024/04/01"
+    ],
+    "sha256": "37c4870836d638ebebda50c80b4f1341bb0f205d5a4d2f00943fbbe181473bf2"
+  },
+  {
+    "id": "2402.17119",
+    "title": [
+      "Creating Suspenseful Stories: Iterative Planning with Large Language Models"
+    ],
+    "author": [
+      "Xie, Kaige",
+      "Riedl, Mark"
+    ],
+    "date": [
+      "2024/02/27"
+    ],
+    "sha256": "790bb83727c0bacd80261055ec3edc941ffe858ea5cd176a2fe7e0be8f85e381"
+  }
+]

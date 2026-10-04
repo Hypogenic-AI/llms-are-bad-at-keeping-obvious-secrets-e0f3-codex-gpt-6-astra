@@ -1,0 +1,51 @@
+{
+  "scope": "README/dependency and key entry-point inspection, plus AST syntax parsing only; no model execution or upstream tests",
+  "python_files": [
+    {
+      "file": "code/representational-suppression/exp1_recoverability.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/representational-suppression/exp3_leakage.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/Concise-SAE/patch_utils.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/Concise-SAE/generation.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/CI-Steering/src/control/ci_steering.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/CI-Steering/src/utils/model_utils.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/doc-story-generation/scripts/main.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/doc-story-generation/story_generation/plan_module/plan.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/eliciting-secret-knowledge/elicitation_methods/logit_lens.py",
+      "syntax": "pass"
+    },
+    {
+      "file": "code/eliciting-secret-knowledge/elicitation_methods/sae.py",
+      "syntax": "pass"
+    }
+  ],
+  "gpu_observed": "NVIDIA RTX A6000, 49140 MiB (nvidia-smi, 2026-10-04)",
+  "runtime_limitations": [
+    "model weights and SAE checkpoints not downloaded",
+    "GPU/API model examples not executed",
+    "upstream requirements not installed into resource environment"
+  ]
+}
